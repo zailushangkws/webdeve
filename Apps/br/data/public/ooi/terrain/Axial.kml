@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Folder>
+		<GroundOverlay>
+			<name>Axial</name>
+			<Icon>
+				<href>Axial.png</href>
+			</Icon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<LatLonBox>
+				<north>46.098827</north>
+				<south>45.162144</south>
+				<east>-129.926773</east>
+				<west>-130.242752</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+</kml>

@@ -1,0 +1,658 @@
+{
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf 0.1.0"
+    },
+    "attributes": {
+        "attribute_103": {
+            "bufferView": "bufferView_109",
+            "byteOffset": 4864,
+            "byteStride": 12,
+            "count": 3120,
+            "max": [
+                2.42609,
+                0.329631,
+                0.339411
+            ],
+            "min": [
+                -2.49898,
+                -0.329631,
+                -0.324409
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_105": {
+            "bufferView": "bufferView_109",
+            "byteOffset": 42304,
+            "byteStride": 12,
+            "count": 3120,
+            "max": [
+                0.972837,
+                0.987851,
+                0.987517
+            ],
+            "min": [
+                -0.972837,
+                -0.987851,
+                -0.987517
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_107": {
+            "bufferView": "bufferView_109",
+            "byteOffset": 79744,
+            "byteStride": 8,
+            "count": 3120,
+            "max": [
+                0.515447,
+                0.99801
+            ],
+            "min": [
+                0.00102903,
+                0.00199151
+            ],
+            "type": "FLOAT_VEC2"
+        },
+        "attribute_22": {
+            "bufferView": "bufferView_109",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "count": 56,
+            "max": [
+                -0.113571,
+                1.93659,
+                0.007566
+            ],
+            "min": [
+                -0.508605,
+                -1.93659,
+                -0.037679
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_24": {
+            "bufferView": "bufferView_109",
+            "byteOffset": 672,
+            "byteStride": 12,
+            "count": 56,
+            "max": [
+                1,
+                1,
+                0.999997
+            ],
+            "min": [
+                -1,
+                -1,
+                -0.999997
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_26": {
+            "bufferView": "bufferView_109",
+            "byteOffset": 1344,
+            "byteStride": 8,
+            "count": 56,
+            "max": [
+                0.275124,
+                0.998008
+            ],
+            "min": [
+                0.000549,
+                0.00199199
+            ],
+            "type": "FLOAT_VEC2"
+        },
+        "attribute_49": {
+            "bufferView": "bufferView_109",
+            "byteOffset": 1792,
+            "byteStride": 12,
+            "count": 48,
+            "max": [
+                2.33512,
+                0.056003,
+                0.91628
+            ],
+            "min": [
+                1.99198,
+                -0.064135,
+                0.129407
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_51": {
+            "bufferView": "bufferView_109",
+            "byteOffset": 2368,
+            "byteStride": 12,
+            "count": 48,
+            "max": [
+                0.999994,
+                0.997842,
+                1
+            ],
+            "min": [
+                -0.999994,
+                -0.997842,
+                -1
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_53": {
+            "bufferView": "bufferView_109",
+            "byteOffset": 2944,
+            "byteStride": 8,
+            "count": 48,
+            "max": [
+                0.919027,
+                0.998008
+            ],
+            "min": [
+                0.00183399,
+                0.00199199
+            ],
+            "type": "FLOAT_VEC2"
+        },
+        "attribute_76": {
+            "bufferView": "bufferView_109",
+            "byteOffset": 3328,
+            "byteStride": 12,
+            "count": 48,
+            "max": [
+                2.33512,
+                0.056003,
+                -0.104699
+            ],
+            "min": [
+                1.99198,
+                -0.064135,
+                -0.891573
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_78": {
+            "bufferView": "bufferView_109",
+            "byteOffset": 3904,
+            "byteStride": 12,
+            "count": 48,
+            "max": [
+                0.999994,
+                0.997842,
+                1
+            ],
+            "min": [
+                -0.999994,
+                -0.997842,
+                -1
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_80": {
+            "bufferView": "bufferView_109",
+            "byteOffset": 4480,
+            "byteStride": 8,
+            "count": 48,
+            "max": [
+                0.919027,
+                0.998008
+            ],
+            "min": [
+                0.00183399,
+                0.00199199
+            ],
+            "type": "FLOAT_VEC2"
+        }
+    },
+    "bufferViews": {
+        "bufferView_109": {
+            "buffer": "auv_1.bin",
+            "byteLength": 104704,
+            "byteOffset": 0,
+            "target": "ARRAY_BUFFER"
+        },
+        "bufferView_110": {
+            "buffer": "auv_1.bin",
+            "byteLength": 9552,
+            "byteOffset": 104704,
+            "target": "ELEMENT_ARRAY_BUFFER"
+        }
+    },
+    "buffers": {
+        "auv_1.bin": {
+            "byteLength": 114256,
+            "path": "auv_1.bin"
+        }
+    },
+    "images": {
+        "image_0": {
+            "path": "auv_1/__auto_.png"
+        },
+        "image_1": {
+            "path": "auv_1/__auto_1.png"
+        },
+        "image_2": {
+            "path": "auv_1/__auto_2.png"
+        },
+        "image_3": {
+            "path": "auv_1/__auto_3.png"
+        }
+    },
+    "indices": {
+        "indices_101": {
+            "bufferView": "bufferView_110",
+            "byteOffset": 432,
+            "count": 4560,
+            "type": "UNSIGNED_SHORT"
+        },
+        "indices_20": {
+            "bufferView": "bufferView_110",
+            "byteOffset": 0,
+            "count": 72,
+            "type": "UNSIGNED_SHORT"
+        },
+        "indices_47": {
+            "bufferView": "bufferView_110",
+            "byteOffset": 144,
+            "count": 72,
+            "type": "UNSIGNED_SHORT"
+        },
+        "indices_74": {
+            "bufferView": "bufferView_110",
+            "byteOffset": 288,
+            "count": 72,
+            "type": "UNSIGNED_SHORT"
+        }
+    },
+    "materials": {
+        "material.0": {
+            "instanceTechnique": {
+                "technique": "technique0",
+                "values": [
+                    {
+                        "parameter": "diffuse",
+                        "value": {
+                            "image": "image_0",
+                            "magFilter": "LINEAR",
+                            "minFilter": "LINEAR",
+                            "wrapS": "REPEAT",
+                            "wrapT": "REPEAT"
+                        }
+                    }
+                ]
+            },
+            "name": "__auto_"
+        },
+        "material.1": {
+            "instanceTechnique": {
+                "technique": "technique0",
+                "values": [
+                    {
+                        "parameter": "diffuse",
+                        "value": {
+                            "image": "image_1",
+                            "magFilter": "LINEAR",
+                            "minFilter": "LINEAR",
+                            "wrapS": "REPEAT",
+                            "wrapT": "REPEAT"
+                        }
+                    }
+                ]
+            },
+            "name": "__auto_1"
+        },
+        "material.2": {
+            "instanceTechnique": {
+                "technique": "technique0",
+                "values": [
+                    {
+                        "parameter": "diffuse",
+                        "value": {
+                            "image": "image_2",
+                            "magFilter": "LINEAR",
+                            "minFilter": "LINEAR",
+                            "wrapS": "REPEAT",
+                            "wrapT": "REPEAT"
+                        }
+                    }
+                ]
+            },
+            "name": "__auto_2"
+        },
+        "material.3": {
+            "instanceTechnique": {
+                "technique": "technique0",
+                "values": [
+                    {
+                        "parameter": "diffuse",
+                        "value": {
+                            "image": "image_3",
+                            "magFilter": "LINEAR",
+                            "minFilter": "LINEAR",
+                            "wrapS": "REPEAT",
+                            "wrapT": "REPEAT"
+                        }
+                    }
+                ]
+            },
+            "name": "__auto_3"
+        }
+    },
+    "meshes": {
+        "ID19": {
+            "name": "ID19",
+            "primitives": [
+                {
+                    "indices": "indices_47",
+                    "material": "material.1",
+                    "primitive": "TRIANGLES",
+                    "semantics": {
+                        "NORMAL": "attribute_51",
+                        "POSITION": "attribute_49",
+                        "TEXCOORD_0": "attribute_53"
+                    }
+                }
+            ]
+        },
+        "ID33": {
+            "name": "ID33",
+            "primitives": [
+                {
+                    "indices": "indices_74",
+                    "material": "material.2",
+                    "primitive": "TRIANGLES",
+                    "semantics": {
+                        "NORMAL": "attribute_78",
+                        "POSITION": "attribute_76",
+                        "TEXCOORD_0": "attribute_80"
+                    }
+                }
+            ]
+        },
+        "ID47": {
+            "name": "ID47",
+            "primitives": [
+                {
+                    "indices": "indices_101",
+                    "material": "material.3",
+                    "primitive": "TRIANGLES",
+                    "semantics": {
+                        "NORMAL": "attribute_105",
+                        "POSITION": "attribute_103",
+                        "TEXCOORD_0": "attribute_107"
+                    }
+                }
+            ]
+        },
+        "ID5": {
+            "name": "ID5",
+            "primitives": [
+                {
+                    "indices": "indices_20",
+                    "material": "material.0",
+                    "primitive": "TRIANGLES",
+                    "semantics": {
+                        "NORMAL": "attribute_24",
+                        "POSITION": "attribute_22",
+                        "TEXCOORD_0": "attribute_26"
+                    }
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_0": {
+            "children": [
+                "node_1"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "SketchUp"
+        },
+        "node_1": {
+            "children": [
+                "node_2"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "instance_0"
+        },
+        "node_2": {
+            "children": [
+                "node_3",
+                "node_4",
+                "node_5",
+                "node_6"
+            ],
+            "matrix": [
+                -0,
+                50.5257,
+                0,
+                0,
+                -50.5257,
+                -0,
+                0,
+                0,
+                0,
+                0,
+                50.5257,
+                0,
+                -1.60162,
+                26.0679,
+                -0.611815,
+                1
+            ],
+            "name": "instance_1"
+        },
+        "node_3": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "ID5"
+            ],
+            "name": "instance_2"
+        },
+        "node_4": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "ID19"
+            ],
+            "name": "instance_3"
+        },
+        "node_5": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "ID33"
+            ],
+            "name": "instance_4"
+        },
+        "node_6": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "ID47"
+            ],
+            "name": "instance_5"
+        }
+    },
+    "profile": "WebGL 1.0",
+    "programs": {
+        "program_0": {
+            "fragmentShader": "auv_10FS",
+            "vertexShader": "auv_10VS"
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node_0"
+            ]
+        }
+    },
+    "shaders": {
+        "auv_10FS": {
+            "path": "auv_10FS.glsl"
+        },
+        "auv_10VS": {
+            "path": "auv_10VS.glsl"
+        }
+    },
+    "techniques": {
+        "technique0": {
+            "parameters": {
+                "diffuse": {
+                    "type": "SAMPLER_2D"
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": "FLOAT_VEC3"
+                },
+                "normalMatrix": {
+                    "semantic": "WORLDVIEWINVERSETRANSPOSE",
+                    "type": "FLOAT_MAT3"
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": "FLOAT_VEC3"
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": "FLOAT_MAT4"
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": "FLOAT_VEC2"
+                },
+                "worldViewMatrix": {
+                    "semantic": "WORLDVIEW",
+                    "type": "FLOAT_MAT4"
+                }
+            },
+            "pass": "defaultPass",
+            "passes": {
+                "defaultPass": {
+                    "instanceProgram": {
+                        "attributes": {
+                            "a_normal": "normal",
+                            "a_position": "position",
+                            "a_texcoord0": "texcoord0"
+                        },
+                        "program": "program_0",
+                        "uniforms": {
+                            "u_diffuse": "diffuse",
+                            "u_normalMatrix": "normalMatrix",
+                            "u_projectionMatrix": "projectionMatrix",
+                            "u_worldViewMatrix": "worldViewMatrix"
+                        }
+                    },
+                    "states": {
+                        "blendEnable": false,
+                        "cullFaceEnable": true,
+                        "depthMask": true,
+                        "depthTestEnable": true
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+  <Document>
+    <Style id="buoy">
+      <IconStyle>
+        <Icon>
+          <href>http://localhost:8080/data/public/ooi/icons/buoy.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder><name>RCO_NOAA_buoys_042707</name>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>5</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>46.05000000000</i><br />
+      <b>Longitude:</b> <i>-131.02000000000</i><br />
+      <b>PosComment:</b> <i>Station 46005  Washington 315 NM West of Aberdeen, WA 2779.8m</i><br />
+   ]]></description>      <Point><coordinates>-131.01999999996698,46.04999999972005</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>6</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>45.88138833330</i><br />
+      <b>Longitude:</b> <i>-125.76638833300</i><br />
+      <b>PosComment:</b> <i>Station 46089  Tillamook, OR 2230m</i><br />
+   ]]></description>      <Point><coordinates>-125.76638833334312,45.881388333053643</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>7</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>45.85888833330</i><br />
+      <b>Longitude:</b> <i>-128.77805500000</i><br />
+      <b>PosComment:</b> <i>Station 46404  230 NM West of Astoria, OR</i><br />
+   ]]></description>      <Point><coordinates>-128.77805499998539,45.858888333053706</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>8</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>44.65000000000</i><br />
+      <b>Longitude:</b> <i>-129.73000000000</i><br />
+      <b>PosComment:</b> <i>Station 46642  Drifting Buoy</i><br />
+   ]]></description>      <Point><coordinates>-129.72999999997754,44.649999999722944</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>9</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>45.25000000000</i><br />
+      <b>Longitude:</b> <i>-126.25000000000</i><br />
+      <b>PosComment:</b> <i>Station 46633  Drifting Buoy</i><br />
+   ]]></description>      <Point><coordinates>-126.25000000000617,45.249999999721595</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>10</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>45.99000000000</i><br />
+      <b>Longitude:</b> <i>-125.90000000000</i><br />
+      <b>PosComment:</b> <i>Station 46532  Drifting Buoy</i><br />
+   ]]></description>      <Point><coordinates>-125.90000000000903,45.989999999720169</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>11</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>46.23000000000</i><br />
+      <b>Longitude:</b> <i>-125.90000000000</i><br />
+      <b>PosComment:</b> <i>Station 46637  Drifting Buoy</i><br />
+   ]]></description>      <Point><coordinates>-125.90000000000903,46.229999999719723</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>12</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>43.35000000000</i><br />
+      <b>Longitude:</b> <i>-125.57000000000</i><br />
+      <b>PosComment:</b> <i>Station 46660  Drifting Buoy</i><br />
+   ]]></description>      <Point><coordinates>-125.57000000001175,43.349999999726307</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>13</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>42.90305500000</i><br />
+      <b>Longitude:</b> <i>-130.90888833300</i><br />
+      <b>PosComment:</b> <i>Station 46405  325 NM West-Southwest of Newport, OR</i><br />
+   ]]></description>      <Point><coordinates>-130.90888833330089,42.903054999727615</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>14</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>42.59944500000</i><br />
+      <b>Longitude:</b> <i>-130.27194500000</i><br />
+      <b>PosComment:</b> <i>Station 46002  OREGON - 275NM West of Coos Bay OR 3374m</i><br />
+   ]]></description>      <Point><coordinates>-130.2719449999731,42.599444999728547</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>15</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>47.33400000000</i><br />
+      <b>Longitude:</b> <i>-124.75000000000</i><br />
+      <b>PosComment:</b> <i>Station 46041  CAPE ELIZABETH- 45NM Northwest of Aberdeen, WA 132m</i><br />
+   ]]></description>      <Point><coordinates>-124.75000000001849,47.333999999700779</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>16</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>46.85066666670</i><br />
+      <b>Longitude:</b> <i>-124.24444500000</i><br />
+      <b>PosComment:</b> <i>Station 46211  Grays Harbor, WA (036) 38m</i><br />
+   ]]></description>      <Point><coordinates>-124.24444500002264,46.850666666385465</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>17</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>46.11666666670</i><br />
+      <b>Longitude:</b> <i>-124.51000000000</i><br />
+      <b>PosComment:</b> <i>Station 46029  COL RIVER BAR - 78NM South Southwest of Aberdeen, WA 128m</i><br />
+   ]]></description>      <Point><coordinates>-124.51000000002047,46.116666666386635</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>18</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>44.63333333330</i><br />
+      <b>Longitude:</b> <i>-124.30361166700</i><br />
+      <b>PosComment:</b> <i>Station 46094  West of Newort NH-10, OR 83m</i><br />
+   ]]></description>      <Point><coordinates>-124.30361166668915,44.633333333056299</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>19</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>44.62111166670</i><br />
+      <b>Longitude:</b> <i>-124.52833333300</i><br />
+      <b>PosComment:</b> <i>Station 46050  STONEWALL BANKS - 20NM West of Newport, OR 131m</i><br />
+   ]]></description>      <Point><coordinates>-124.5283333333533,44.621111666389709</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>20</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>43.76944500000</i><br />
+      <b>Longitude:</b> <i>-124.55055500000</i><br />
+      <b>PosComment:</b> <i>Station 46229  UMPQUA OFFSHORE, OR (139) 187m</i><br />
+   ]]></description>      <Point><coordinates>-124.55055500002011,43.76944499972516</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#buoy</styleUrl>
+    <description><![CDATA[
+      <b>Sequence:</b> <i>21</i><br />
+      <b>Segment:</b> <i>1</i><br />
+      <b>Year_:</b> <i>2007</i><br />
+      <b>Latitude:</b> <i>42.74666666670</i><br />
+      <b>Longitude:</b> <i>-124.84666666700</i><br />
+      <b>PosComment:</b> <i>Station 46015  Port Orford - 16 NM West of Port Orford, OR 448m</i><br />
+   ]]></description>      <Point><coordinates>-124.84666666668468,42.746666666394788</coordinates></Point>
+  </Placemark>
+</Folder></Document></kml>

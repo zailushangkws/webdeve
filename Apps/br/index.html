@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC>
+<HTML><HEAD>
+  <!-- Use correct character set. -->
+  <meta charset="utf-8">
+  <!-- Tell IE to use the latest, best version (or Chrome Frame if pre-IE11). -->
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<TITLE>Drawing and Measure</TITLE>
+<link rel="stylesheet" type="text/css" href="../../Build/Cesium/Widgets/widgets.css">
+<link rel="stylesheet" type="text/css" href="css/measureBoxStyle2.css">
+<script src="../../Build/Cesium/Cesium.js"></script>
+  <style>
+      html, body, #cesiumContainer {
+          width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;
+      }
+  </style>
+</HEAD>
+<BODY>
+<div id="cesiumContainer"></div>
+
+</BODY>
+<script>
+var viewer = new Cesium.Viewer('cesiumContainer');
+</script>
+<!-- <script src="js/drawMeasure.min.js"></script> -->
+<script src="js/turf.min.js" charset="utf-8"></script>
+<script src="js/echarts.common.min.js" charset="utf-8"></script>
+<script src="js/drawing2.js"></script>
+</html>

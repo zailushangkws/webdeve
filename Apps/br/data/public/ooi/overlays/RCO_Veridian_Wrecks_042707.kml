@@ -1,0 +1,3442 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+  <Document>  
+    <Style id="wreck">
+    <IconStyle>
+      <Icon>
+        <href>http://localhost:8080/data/public/ooi/icons/shipwreck.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+<Folder><name>RCO_Veridian_Wrecks_042707</name>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>18721</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000530849</i><br />
+      <b>NAME:</b> <i>LSFF 788</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>LCI</i><br />
+      <b>TYPEOFSINK:</b> <i>NC</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 18 48 N</i><br />
+      <b>LONGITUDE:</b> <i>125 09 30 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.31333333330</i><br />
+      <b>LONGITUDE_:</b> <i>-125.15833333300</i><br />
+      <b>DATEOFSINK:</b> <i>19571113</i><br />
+      <b>GROSSTONS:</b> <i>000250</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-125.15833333334848,46.313333333038372</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>18722</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000530855</i><br />
+      <b>NAME:</b> <i>LSFF 1081</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>LCI</i><br />
+      <b>TYPEOFSINK:</b> <i>NC</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 18 42 N</i><br />
+      <b>LONGITUDE:</b> <i>125 10 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.31166666670</i><br />
+      <b>LONGITUDE_:</b> <i>-125.16666666700</i><br />
+      <b>DATEOFSINK:</b> <i>19571113</i><br />
+      <b>GROSSTONS:</b> <i>000250</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-125.16666666668173,46.3116666663717</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>18724</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000530867</i><br />
+      <b>NAME:</b> <i>LSFF 994</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>LSI</i><br />
+      <b>TYPEOFSINK:</b> <i>NC</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 15 06 N</i><br />
+      <b>LONGITUDE:</b> <i>124 50 06 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.25166666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.83500000000</i><br />
+      <b>DEPTHCODE:</b> <i>R</i><br />
+      <b>DEPTHMETER:</b> <i>0152</i><br />
+      <b>DATEOFSINK:</b> <i>19571207</i><br />
+      <b>GROSSTONS:</b> <i>000250</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.83500000001777,46.25166666637179</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>18762</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000531233</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>FBO</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 22 01 N</i><br />
+      <b>LONGITUDE:</b> <i>124 21 43 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.36694444440</i><br />
+      <b>LONGITUDE_:</b> <i>-124.36194444400</i><br />
+      <b>DATEOFINFO:</b> <i>19690215</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.3619444444661,43.366944444156147</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>18875</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000531989</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>BGE</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>CM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 11 36 N</i><br />
+      <b>LONGITUDE:</b> <i>122 46 36 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.19333333330</i><br />
+      <b>LONGITUDE_:</b> <i>-122.77666666700</i><br />
+      <b>DEPTHCODE:</b> <i>R</i><br />
+      <b>DEPTHMETER:</b> <i>0069</i><br />
+      <b>DATEOFINFO:</b> <i>19690906</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.77666666670137,48.193333333020895</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>18923</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000532277</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>CM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 45 27 N</i><br />
+      <b>LONGITUDE:</b> <i>122 28 03 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.75750000000</i><br />
+      <b>LONGITUDE_:</b> <i>-122.46750000000</i><br />
+      <b>DATEOFINFO:</b> <i>19700321</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.46750000003725,47.757499999686871</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>18969</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000532565</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>CM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 55 38 N</i><br />
+      <b>LONGITUDE:</b> <i>122 30 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.92722222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.50000000000</i><br />
+      <b>DATEOFINFO:</b> <i>19701128</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.50000000003698,47.927222221909354</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>19712</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000537245</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>BGE</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>CG</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 38 59 N</i><br />
+      <b>LONGITUDE:</b> <i>122 19 39 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.64972222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.32750000000</i><br />
+      <b>DATEOFINFO:</b> <i>19750412</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.3275000000384,47.649722221908938</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>20080</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000539789</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 40 24 N</i><br />
+      <b>LONGITUDE:</b> <i>122 25 06 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.67333333330</i><br />
+      <b>LONGITUDE_:</b> <i>-122.41833333300</i><br />
+      <b>DATEOFINFO:</b> <i>19760925</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.418333333371,47.673333333020075</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>20214</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000540593</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 08 42 N</i><br />
+      <b>LONGITUDE:</b> <i>123 26 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.14500000000</i><br />
+      <b>LONGITUDE_:</b> <i>-123.43333333300</i><br />
+      <b>DATEOFINFO:</b> <i>19761225</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.43333333336264,48.144999999687499</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>20626</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000543071</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 15 25 N</i><br />
+      <b>LONGITUDE:</b> <i>124 42 30 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.25694444440</i><br />
+      <b>LONGITUDE_:</b> <i>-124.70833333300</i><br />
+      <b>DATEOFINFO:</b> <i>19770709</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.70833333335217,48.25694444413211</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>20709</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000543575</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 09 54 N</i><br />
+      <b>LONGITUDE:</b> <i>124 15 30 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.16500000000</i><br />
+      <b>LONGITUDE_:</b> <i>-124.25833333300</i><br />
+      <b>DATEOFINFO:</b> <i>19780311</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.25833333335585,46.164999999705294</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>20976</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000545207</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 00 00 N</i><br />
+      <b>LONGITUDE:</b> <i>125 00 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.00000000000</i><br />
+      <b>LONGITUDE_:</b> <i>-125.00000000000</i><br />
+      <b>DATEOFINFO:</b> <i>19791020</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-125.00000000001644,47.999999999687255</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22147</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552425</i><br />
+      <b>NAME:</b> <i>ALVARADO</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>CGO</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>UA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 31 20 N</i><br />
+      <b>LONGITUDE:</b> <i>124 15 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.52222222220</i><br />
+      <b>LONGITUDE_:</b> <i>-124.25000000000</i><br />
+      <b>DATEOFSINK:</b> <i>19450317</i><br />
+      <b>DATEOFINFO:</b> <i>19460930</i><br />
+      <b>GROSSTONS:</b> <i>001994</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.2500000000226,43.522222221933482</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22150</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552443</i><br />
+      <b>NAME:</b> <i>MOBILE POINT</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>TUG</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>UA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 05 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 24 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.08333333330</i><br />
+      <b>LONGITUDE_:</b> <i>-124.40000000000</i><br />
+      <b>DATEOFSINK:</b> <i>19441222</i><br />
+      <b>DATEOFINFO:</b> <i>19460930</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.40000000002136,45.083333333040734</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22157</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552485</i><br />
+      <b>NAME:</b> <i>COAST TRADER</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>CGO</i><br />
+      <b>SUNKBYFLAG:</b> <i>JA</i><br />
+      <b>TYPEOFSINK:</b> <i>SB</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>UA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 15 00 N</i><br />
+      <b>LONGITUDE:</b> <i>125 40 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.25000000000</i><br />
+      <b>LONGITUDE_:</b> <i>-125.66666666700</i><br />
+      <b>DATEOFSINK:</b> <i>19420607</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>GROSSTONS:</b> <i>003286</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-125.66666666667763,48.249999999687681</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22158</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552491</i><br />
+      <b>NAME:</b> <i>NIHA</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>CG</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 00 00 N</i><br />
+      <b>LONGITUDE:</b> <i>125 00 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.00000000000</i><br />
+      <b>LONGITUDE_:</b> <i>-125.00000000000</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-125.00000000001644,47.999999999687255</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22159</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552497</i><br />
+      <b>NAME:</b> <i>J C KIRKPATRICK</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>CGO</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>CG</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 15 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 50 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.25000000000</i><br />
+      <b>LONGITUDE_:</b> <i>-124.83333333300</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>GROSSTONS:</b> <i>001430</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.83333333335112,47.249999999686118</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22160</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552503</i><br />
+      <b>NAME:</b> <i>MULTNOMAH</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>CGO</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>CG</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 53 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 20 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.88333333330</i><br />
+      <b>LONGITUDE_:</b> <i>-124.33333333300</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>GROSSTONS:</b> <i>000969</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.33333333335523,46.883333333037513</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22161</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552509</i><br />
+      <b>NAME:</b> <i>CAMDEN</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>CGO</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>UA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 46 38 N</i><br />
+      <b>LONGITUDE:</b> <i>124 31 15 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.77722222220</i><br />
+      <b>LONGITUDE_:</b> <i>-124.52083333300</i><br />
+      <b>DATEOFSINK:</b> <i>19421010</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>GROSSTONS:</b> <i>006653</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.52083333335371,46.777222221926536</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22162</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552515</i><br />
+      <b>NAME:</b> <i>GREAT REPUBLIC</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>CG</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 17 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 08 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.28333333330</i><br />
+      <b>LONGITUDE_:</b> <i>-124.13333333300</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.1333333333569,46.283333333038421</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22163</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552521</i><br />
+      <b>NAME:</b> <i>IOWA</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>UA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 16 30 N</i><br />
+      <b>LONGITUDE:</b> <i>124 07 20 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.27500000000</i><br />
+      <b>LONGITUDE_:</b> <i>-124.12222222200</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.12222222224585,46.274999999705095</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22164</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552527</i><br />
+      <b>NAME:</b> <i>BUTCHER</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>CG</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 37 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 06 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.61666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.10000000000</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.10000000002383,44.61666666637511</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22165</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552533</i><br />
+      <b>NAME:</b> <i>MELBA</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>CG</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 36 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 06 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.60000000000</i><br />
+      <b>LONGITUDE_:</b> <i>-124.10000000000</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.10000000002383,44.599999999708487</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22166</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552539</i><br />
+      <b>NAME:</b> <i>C C LINDAUER</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>CG</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 40 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 14 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.66666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.23333333300</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.23333333335607,43.66666666637753</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22167</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552545</i><br />
+      <b>NAME:</b> <i>C A SMITH</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>CGO</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>CG</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 22 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 21 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.36666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.35000000000</i><br />
+      <b>DATEOFSINK:</b> <i>19231216</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.35000000002178,43.366666666378364</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22168</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552551</i><br />
+      <b>NAME:</b> <i>COLUMBIA</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>CG</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 22 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 21 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.36666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.35000000000</i><br />
+      <b>DATEOFSINK:</b> <i>19240217</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.35000000002178,43.366666666378364</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22169</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552557</i><br />
+      <b>NAME:</b> <i>BRUSH</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>CGO</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>CG</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 19 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 30 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.31666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.50000000000</i><br />
+      <b>DATEOFSINK:</b> <i>19230426</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.50000000002052,43.316666666378516</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22171</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552569</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>TWR</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 16 16 N</i><br />
+      <b>LONGITUDE:</b> <i>124 04 15 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.27111111110</i><br />
+      <b>LONGITUDE_:</b> <i>-124.07083333300</i><br />
+      <b>DATEOFSINK:</b> <i>19530000</i><br />
+      <b>DATEOFINFO:</b> <i>19531121</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.0708333333574,46.2711111108162</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22172</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552575</i><br />
+      <b>NAME:</b> <i>DREXEL VICTORY</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>CGO</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 18 45 N</i><br />
+      <b>LONGITUDE:</b> <i>124 09 30 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.31250000000</i><br />
+      <b>LONGITUDE_:</b> <i>-124.15833333300</i><br />
+      <b>DATEOFSINK:</b> <i>19470000</i><br />
+      <b>DATEOFINFO:</b> <i>19470207</i><br />
+      <b>GROSSTONS:</b> <i>007607</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.15833333335669,46.312499999705039</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22173</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552581</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>US</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 14 28 N</i><br />
+      <b>LONGITUDE:</b> <i>124 01 30 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.24111111110</i><br />
+      <b>LONGITUDE_:</b> <i>-124.02500000000</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.02500000002445,46.24111111081627</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22174</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552587</i><br />
+      <b>NAME:</b> <i>SEA THRUST</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>CGO</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>US</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 14 35 N</i><br />
+      <b>LONGITUDE:</b> <i>124 01 51 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.24305555560</i><br />
+      <b>LONGITUDE_:</b> <i>-124.03083333300</i><br />
+      <b>DATEOFSINK:</b> <i>19321204</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>GROSSTONS:</b> <i>005538</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.03083333335773,46.243055555260725</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22175</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552593</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>US</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 15 58 N</i><br />
+      <b>LONGITUDE:</b> <i>124 02 34 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.26611111110</i><br />
+      <b>LONGITUDE_:</b> <i>-124.04277777800</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.04277777780209,46.26611111081624</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22176</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552599</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>US</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 15 58 N</i><br />
+      <b>LONGITUDE:</b> <i>124 05 30 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.26611111110</i><br />
+      <b>LONGITUDE_:</b> <i>-124.09166666700</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.09166666669056,46.266111110816247</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22177</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552605</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>US</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 16 58 N</i><br />
+      <b>LONGITUDE:</b> <i>124 05 10 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.28277777780</i><br />
+      <b>LONGITUDE_:</b> <i>-124.08611111100</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.08611111113504,46.282777777482856</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22178</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552611</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>US</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 10 43 N</i><br />
+      <b>LONGITUDE:</b> <i>123 58 49 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.17861111110</i><br />
+      <b>LONGITUDE_:</b> <i>-123.98027777800</i><br />
+      <b>DATEOFINFO:</b> <i>19450310</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.98027777780258,46.178611110816377</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22198</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552731</i><br />
+      <b>NAME:</b> <i>GEORGE OLSEN</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>CGO</i><br />
+      <b>SUNKBYFLAG:</b> <i>US</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>UA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 22 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 17 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.36666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.28333333300</i><br />
+      <b>DATEOFSINK:</b> <i>19440624</i><br />
+      <b>GROSSTONS:</b> <i>001428</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.28333333335564,43.366666666378364</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22199</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552737</i><br />
+      <b>NAME:</b> <i>AUI</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>UA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 36 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 05 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.60000000000</i><br />
+      <b>LONGITUDE_:</b> <i>-124.08333333300</i><br />
+      <b>DATEOFSINK:</b> <i>19431204</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.0833333333573,44.59999999970848</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22200</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552743</i><br />
+      <b>NAME:</b> <i>MOBILE POINT</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>CGO</i><br />
+      <b>SUNKBYFLAG:</b> <i>US</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>UA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 43 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 02 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.71666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.03333333300</i><br />
+      <b>DATEOFSINK:</b> <i>19441223</i><br />
+      <b>GROSSTONS:</b> <i>001117</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.03333333335772,44.716666666374898</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22201</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000552749</i><br />
+      <b>NAME:</b> <i>LAMUT</i><br />
+      <b>FLAG:</b> <i>RS</i><br />
+      <b>FEAT_TYPE:</b> <i>CGO</i><br />
+      <b>SUNKBYFLAG:</b> <i>RS</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>UA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 52 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 36 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.86666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.60000000000</i><br />
+      <b>DATEOFSINK:</b> <i>19430402</i><br />
+      <b>GROSSTONS:</b> <i>002694</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.6000000000197,44.86666666637452</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22291</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000553289</i><br />
+      <b>NAME:</b> <i>JOHN ASPIN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>BGE</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 37 20 N</i><br />
+      <b>LONGITUDE:</b> <i>124 04 47 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.62222222220</i><br />
+      <b>LONGITUDE_:</b> <i>-124.07972222200</i><br />
+      <b>DATEOFSINK:</b> <i>19520000</i><br />
+      <b>DATEOFINFO:</b> <i>19530725</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.0797222222462,44.622222221930656</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22292</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000553295</i><br />
+      <b>NAME:</b> <i>COOLIDGE</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>TUG</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 18 35 N</i><br />
+      <b>LONGITUDE:</b> <i>124 16 35 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.30972222220</i><br />
+      <b>LONGITUDE_:</b> <i>-124.27638888900</i><br />
+      <b>DATEOFINFO:</b> <i>19521128</i><br />
+      <b>GROSSTONS:</b> <i>000041</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.27638888891128,44.309722221931388</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22293</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000553301</i><br />
+      <b>NAME:</b> <i>WASECA</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>TUG</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 16 10 N</i><br />
+      <b>LONGITUDE:</b> <i>124 03 42 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.26944444440</i><br />
+      <b>LONGITUDE_:</b> <i>-124.06166666700</i><br />
+      <b>DATEOFINFO:</b> <i>19521128</i><br />
+      <b>GROSSTONS:</b> <i>000026</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.06166666669081,45.269444444151432</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22296</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000553325</i><br />
+      <b>NAME:</b> <i>FONTUNA</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>TWR</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 33 55 N</i><br />
+      <b>LONGITUDE:</b> <i>123 58 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.56527777780</i><br />
+      <b>LONGITUDE_:</b> <i>-123.96666666700</i><br />
+      <b>DATEOFSINK:</b> <i>19470000</i><br />
+      <b>DATEOFINFO:</b> <i>19471212</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.96666666669161,45.56527777748417</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22308</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000553469</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>YY</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 10 20 N</i><br />
+      <b>LONGITUDE:</b> <i>124 24 30 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.17222222220</i><br />
+      <b>LONGITUDE_:</b> <i>-124.40833333300</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.40833333335463,43.172222221934483</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22309</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000553475</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>YY</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 44 50 N</i><br />
+      <b>LONGITUDE:</b> <i>124 10 50 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.74722222220</i><br />
+      <b>LONGITUDE_:</b> <i>-124.18055555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.18055555557875,43.747222221932851</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22310</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000553481</i><br />
+      <b>NAME:</b> <i>Y M S 133</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>MIN</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>UA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 30 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 30 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.50000000000</i><br />
+      <b>LONGITUDE_:</b> <i>-124.50000000000</i><br />
+      <b>DATEOFSINK:</b> <i>19430220</i><br />
+      <b>GROSSTONS:</b> <i>000207</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.50000000002052,43.499999999711335</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>22336</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000553715</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>YY</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 15 45 N</i><br />
+      <b>LONGITUDE:</b> <i>124 01 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.26250000000</i><br />
+      <b>LONGITUDE_:</b> <i>-124.01666666700</i><br />
+      <b>DATEOFINFO:</b> <i>19340000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.01666666669117,46.262499999705113</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>29074</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000594557</i><br />
+      <b>NAME:</b> <i>Y B I</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>BGE</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 31 00 N</i><br />
+      <b>LONGITUDE:</b> <i>129 02 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.51666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-129.03333333300</i><br />
+      <b>DATEOFSINK:</b> <i>19501001</i><br />
+      <b>DATEOFINFO:</b> <i>19510000</i><br />
+      <b>GROSSTONS:</b> <i>000701</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-129.03333333331662,46.516666666371371</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>29293</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000595883</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>YY</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 09 30 N</i><br />
+      <b>LONGITUDE:</b> <i>122 44 15 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.15833333330</i><br />
+      <b>LONGITUDE_:</b> <i>-122.73750000000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.73750000003501,48.158333333020856</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>29294</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000595889</i><br />
+      <b>NAME:</b> <i>MIZPAH</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>TUG</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 13 30 N</i><br />
+      <b>LONGITUDE:</b> <i>122 37 10 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.22500000000</i><br />
+      <b>LONGITUDE_:</b> <i>-122.61944444400</i><br />
+      <b>DATEOFSINK:</b> <i>19510000</i><br />
+      <b>DATEOFINFO:</b> <i>19510214</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.61944444448045,48.224999999687626</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>30284</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000600503</i><br />
+      <b>NAME:</b> <i>LST 784</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>LST</i><br />
+      <b>SUNKBYFLAG:</b> <i>US</i><br />
+      <b>TYPEOFSINK:</b> <i>SB</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>UA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 07 00 N</i><br />
+      <b>LONGITUDE:</b> <i>126 38 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.11666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-126.63333333300</i><br />
+      <b>DATEOFSINK:</b> <i>19590324</i><br />
+      <b>DATEOFINFO:</b> <i>19590324</i><br />
+      <b>GROSSTONS:</b> <i>001490</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-126.63333333333634,46.116666666372033</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>30285</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000600515</i><br />
+      <b>NAME:</b> <i>LST 904</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>LST</i><br />
+      <b>SUNKBYFLAG:</b> <i>US</i><br />
+      <b>TYPEOFSINK:</b> <i>SB</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>US</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 55 36 N</i><br />
+      <b>LONGITUDE:</b> <i>127 00 30 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.92666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-127.00833333300</i><br />
+      <b>DATEOFSINK:</b> <i>19590513</i><br />
+      <b>DATEOFINFO:</b> <i>19590513</i><br />
+      <b>GROSSTONS:</b> <i>001490</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-127.00833333333325,47.926666666353803</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>30508</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000601985</i><br />
+      <b>NAME:</b> <i>AMERICAN EXPRESS</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>FBO</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>SOURCE:</b> <i>BA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 57 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 41 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.95000000000</i><br />
+      <b>LONGITUDE_:</b> <i>-124.68333333300</i><br />
+      <b>DATEOFSINK:</b> <i>19810604</i><br />
+      <b>DATEOFINFO:</b> <i>19810804</i><br />
+      <b>GROSSTONS:</b> <i>000130</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.68333333335235,45.949999999705639</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>30526</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000602093</i><br />
+      <b>NAME:</b> <i>MIDNIGHT EXPRESS</i><br />
+      <b>FLAG:</b> <i>US</i><br />
+      <b>FEAT_TYPE:</b> <i>TWR</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>BA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 55 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 38 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.91666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.63333333300</i><br />
+      <b>DEPTHCODE:</b> <i>R</i><br />
+      <b>DEPTHMETER:</b> <i>0177</i><br />
+      <b>DATEOFSINK:</b> <i>19821129</i><br />
+      <b>DATEOFINFO:</b> <i>19820302</i><br />
+      <b>GROSSTONS:</b> <i>000148</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.63333333335277,45.916666666372393</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>30659</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000602975</i><br />
+      <b>NAME:</b> <i>BIG RED</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>FBO</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>UA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 56 50 N</i><br />
+      <b>LONGITUDE:</b> <i>124 12 25 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.94722222220</i><br />
+      <b>LONGITUDE_:</b> <i>-124.20694444400</i><br />
+      <b>DATEOFINFO:</b> <i>19830000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.20694444446738,46.947222221926282</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>30736</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000603587</i><br />
+      <b>NAME:</b> <i>NORTH PACIFIC</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>FBO</i><br />
+      <b>TYPEOFSINK:</b> <i>MC</i><br />
+      <b>SOURCE:</b> <i>UA</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 08 00 N</i><br />
+      <b>LONGITUDE:</b> <i>125 08 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.13333333330</i><br />
+      <b>LONGITUDE_:</b> <i>-125.13333333300</i><br />
+      <b>DATEOFSINK:</b> <i>19840600</i><br />
+      <b>DATEOFINFO:</b> <i>19840625</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-125.13333333334869,47.13333333303715</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>31490</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000608573</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 14 14 N</i><br />
+      <b>LONGITUDE:</b> <i>124 08 04 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.23722222220</i><br />
+      <b>LONGITUDE_:</b> <i>-124.13444444400</i><br />
+      <b>DATEOFINFO:</b> <i>19910209</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.13444444446799,46.237222221927382</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>31515</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000608789</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>NM</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 10 00 N</i><br />
+      <b>LONGITUDE:</b> <i>124 17 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.16666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.28333333300</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.28333333335564,45.166666666373857</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33798</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427660</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 37 19 N</i><br />
+      <b>LONGITUDE:</b> <i>124 04 51 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.62194444440</i><br />
+      <b>LONGITUDE_:</b> <i>-124.08083333300</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.08083333335732,44.621944444152874</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33799</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427666</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 37 03 N</i><br />
+      <b>LONGITUDE:</b> <i>124 02 41 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.61750000000</i><br />
+      <b>LONGITUDE_:</b> <i>-124.04472222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.04472222224648,44.617499999708443</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33800</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427672</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 36 44 N</i><br />
+      <b>LONGITUDE:</b> <i>124 04 53 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.61222222220</i><br />
+      <b>LONGITUDE_:</b> <i>-124.08138888900</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.08138888891288,44.612222221930644</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33801</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427678</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 36 41 N</i><br />
+      <b>LONGITUDE:</b> <i>123 56 11 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.61138888890</i><br />
+      <b>LONGITUDE_:</b> <i>-123.93638888900</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.93638888891405,44.611388888597332</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33802</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427684</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 34 32 N</i><br />
+      <b>LONGITUDE:</b> <i>123 58 50 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.57555555560</i><br />
+      <b>LONGITUDE_:</b> <i>-123.98055555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.98055555558035,44.575555555264096</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33803</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427690</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 34 16 N</i><br />
+      <b>LONGITUDE:</b> <i>123 58 44 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.57111111110</i><br />
+      <b>LONGITUDE_:</b> <i>-123.97888888900</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.97888888891372,44.57111111081965</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33804</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427696</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>44 00 08 N</i><br />
+      <b>LONGITUDE:</b> <i>124 07 37 W</i><br />
+      <b>LATITUDE_D:</b> <i>44.00222222220</i><br />
+      <b>LONGITUDE_:</b> <i>-124.12694444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.12694444446805,44.002222221932179</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33805</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427702</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 27 16 N</i><br />
+      <b>LONGITUDE:</b> <i>124 16 40 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.45444444440</i><br />
+      <b>LONGITUDE_:</b> <i>-124.27777777800</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.27777777780013,43.454444444155897</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33806</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427708</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 22 15 N</i><br />
+      <b>LONGITUDE:</b> <i>124 18 37 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.37083333330</i><br />
+      <b>LONGITUDE_:</b> <i>-124.31027777800</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.31027777779988,43.370833333045049</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33807</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427714</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 21 24 N</i><br />
+      <b>LONGITUDE:</b> <i>124 18 53 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.35666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.31472222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.31472222224428,43.356666666378395</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33808</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427720</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 21 22 N</i><br />
+      <b>LONGITUDE:</b> <i>124 20 56 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.35611111110</i><br />
+      <b>LONGITUDE_:</b> <i>-124.34888888900</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.34888888891066,43.356111110822859</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33809</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427726</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 21 05 N</i><br />
+      <b>LONGITUDE:</b> <i>124 20 49 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.35138888890</i><br />
+      <b>LONGITUDE_:</b> <i>-124.34694444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.34694444446626,43.351388888600638</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33810</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427732</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 20 29 N</i><br />
+      <b>LONGITUDE:</b> <i>124 21 59 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.34138888890</i><br />
+      <b>LONGITUDE_:</b> <i>-124.36638888900</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.36638888891052,43.341388888600648</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>33811</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0002427738</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>43 20 40 N</i><br />
+      <b>LONGITUDE:</b> <i>124 13 27 W</i><br />
+      <b>LATITUDE_D:</b> <i>43.34444444440</i><br />
+      <b>LONGITUDE_:</b> <i>-124.22416666700</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.22416666668947,43.344444444156181</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43001</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197652</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 16 43 N</i><br />
+      <b>LONGITUDE:</b> <i>124 02 24 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.27861111110</i><br />
+      <b>LONGITUDE_:</b> <i>-124.04000000000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.04000000002431,46.278611110816207</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43002</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197658</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 16 29 N</i><br />
+      <b>LONGITUDE:</b> <i>124 02 40 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.27472222220</i><br />
+      <b>LONGITUDE_:</b> <i>-124.04444444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.04444444446872,46.274722221927291</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43003</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197664</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 16 06 N</i><br />
+      <b>LONGITUDE:</b> <i>124 02 23 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.26833333330</i><br />
+      <b>LONGITUDE_:</b> <i>-124.03972222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.03972222224654,46.268333333038427</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43004</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197670</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>46 15 56 N</i><br />
+      <b>LONGITUDE:</b> <i>124 02 39 W</i><br />
+      <b>LATITUDE_D:</b> <i>46.26555555560</i><br />
+      <b>LONGITUDE_:</b> <i>-124.04416666700</i><br />
+      <b>DEPTHCODE:</b> <i>R</i><br />
+      <b>DEPTHMETER:</b> <i>0006</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.04416666669097,46.265555555260661</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43005</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197676</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 39 08 N</i><br />
+      <b>LONGITUDE:</b> <i>122 45 06 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.65222222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.75166666700</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.75166666670158,45.652222221928454</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43006</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197682</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 38 37 N</i><br />
+      <b>LONGITUDE:</b> <i>122 49 31 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.64361111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.82527777800</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.82527777781206,45.643611110817353</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43007</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197688</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 37 28 N</i><br />
+      <b>LONGITUDE:</b> <i>122 48 50 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.62444444440</i><br />
+      <b>LONGITUDE_:</b> <i>-122.81388888900</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.81388888892327,45.624444444150711</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43008</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197694</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 37 11 N</i><br />
+      <b>LONGITUDE:</b> <i>122 47 40 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.61972222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.79444444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.79444444447898,45.619722221928498</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43009</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197700</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 37 07 N</i><br />
+      <b>LONGITUDE:</b> <i>122 47 54 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.61861111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.79833333300</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.79833333336786,45.61861111081739</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43010</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197706</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 37 42 N</i><br />
+      <b>LONGITUDE:</b> <i>122 43 56 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.62833333330</i><br />
+      <b>LONGITUDE_:</b> <i>-122.73222222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.73222222225729,45.628333333039613</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43011</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197712</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 37 36 N</i><br />
+      <b>LONGITUDE:</b> <i>122 43 47 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.62666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-122.72972222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.72972222225731,45.626666666372898</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43012</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197718</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 37 19 N</i><br />
+      <b>LONGITUDE:</b> <i>122 42 56 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.62194444440</i><br />
+      <b>LONGITUDE_:</b> <i>-122.71555555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.71555555559077,45.621944444150735</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43013</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197724</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 37 16 N</i><br />
+      <b>LONGITUDE:</b> <i>122 42 49 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.62111111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.71361111100</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.71361111114634,45.621111110817367</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43014</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197730</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 36 59 N</i><br />
+      <b>LONGITUDE:</b> <i>122 42 02 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.61638888890</i><br />
+      <b>LONGITUDE_:</b> <i>-122.70055555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.7005555555909,45.616388888595182</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43015</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197736</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 36 55 N</i><br />
+      <b>LONGITUDE:</b> <i>122 39 16 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.61527777780</i><br />
+      <b>LONGITUDE_:</b> <i>-122.65444444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.65444444448013,45.61527777748406</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43016</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197742</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 28 53 N</i><br />
+      <b>LONGITUDE:</b> <i>122 39 32 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.48138888890</i><br />
+      <b>LONGITUDE_:</b> <i>-122.65888888900</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.65888888892455,45.481388888595461</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43017</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197748</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 28 47 N</i><br />
+      <b>LONGITUDE:</b> <i>122 39 47 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.47972222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.66305555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.66305555559119,45.47972222192876</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43018</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018197754</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>45 28 47 N</i><br />
+      <b>LONGITUDE:</b> <i>122 39 44 W</i><br />
+      <b>LATITUDE_D:</b> <i>45.47972222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.66222222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.66222222225788,45.47972222192876</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43031</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308778</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 08 41 N</i><br />
+      <b>LONGITUDE:</b> <i>123 26 05 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.14472222220</i><br />
+      <b>LONGITUDE_:</b> <i>-123.43472222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.43472222225151,48.14472222190971</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43032</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308784</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 07 40 N</i><br />
+      <b>LONGITUDE:</b> <i>123 27 11 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.12777777780</i><br />
+      <b>LONGITUDE_:</b> <i>-123.45305555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.45305555558471,48.127777777465262</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43033</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308790</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 02 34 N</i><br />
+      <b>LONGITUDE:</b> <i>122 45 56 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.04277777780</i><br />
+      <b>LONGITUDE_:</b> <i>-122.76555555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.76555555559035,48.042777777465119</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43034</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308796</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 09 21 N</i><br />
+      <b>LONGITUDE:</b> <i>122 45 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.15583333330</i><br />
+      <b>LONGITUDE_:</b> <i>-122.75000000000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.75000000003493,48.155833333020851</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43035</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308802</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 04 10 N</i><br />
+      <b>LONGITUDE:</b> <i>122 44 39 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.06944444440</i><br />
+      <b>LONGITUDE_:</b> <i>-122.74416666700</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.74416666670162,48.069444444131818</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43036</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308808</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 04 10 N</i><br />
+      <b>LONGITUDE:</b> <i>122 44 27 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.06944444440</i><br />
+      <b>LONGITUDE_:</b> <i>-122.74083333300</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.74083333336831,48.069444444131818</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43037</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308814</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 02 03 N</i><br />
+      <b>LONGITUDE:</b> <i>122 44 59 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.03416666670</i><br />
+      <b>LONGITUDE_:</b> <i>-122.74972222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.74972222225715,48.034166666353975</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43038</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308820</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 48 56 N</i><br />
+      <b>LONGITUDE:</b> <i>122 49 21 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.81555555560</i><br />
+      <b>LONGITUDE_:</b> <i>-122.82250000000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.8225000000343,47.815555555242504</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43039</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308826</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 57 35 N</i><br />
+      <b>LONGITUDE:</b> <i>122 40 38 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.95972222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.67722222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.67722222225775,47.959722221909423</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43040</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308832</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 57 26 N</i><br />
+      <b>LONGITUDE:</b> <i>122 40 32 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.95722222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.67555555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.6755555555911,47.957222221909433</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43041</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308838</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 55 08 N</i><br />
+      <b>LONGITUDE:</b> <i>122 40 23 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.91888888890</i><br />
+      <b>LONGITUDE_:</b> <i>-122.67305555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.67305555559112,47.918888888576006</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43042</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308844</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 55 04 N</i><br />
+      <b>LONGITUDE:</b> <i>122 42 00 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.91777777780</i><br />
+      <b>LONGITUDE_:</b> <i>-122.70000000000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.70000000003535,47.917777777464899</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43043</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308850</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 54 53 N</i><br />
+      <b>LONGITUDE:</b> <i>122 41 36 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.91472222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.69333333300</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.69333333336874,47.914722221909351</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43044</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308856</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 54 06 N</i><br />
+      <b>LONGITUDE:</b> <i>122 31 10 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.90166666670</i><br />
+      <b>LONGITUDE_:</b> <i>-122.51944444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.51944444448127,47.901666666353762</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43045</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308862</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 48 51 N</i><br />
+      <b>LONGITUDE:</b> <i>122 23 09 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.81416666670</i><br />
+      <b>LONGITUDE_:</b> <i>-122.38583333300</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.38583333337124,47.814166666353621</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43046</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308868</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 48 49 N</i><br />
+      <b>LONGITUDE:</b> <i>122 23 08 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.81361111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.38555555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.38555555559346,47.813611110798071</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43047</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308874</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 48 22 N</i><br />
+      <b>LONGITUDE:</b> <i>122 28 57 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.80611111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.48250000000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.48250000003712,47.806111110798057</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43048</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308880</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 46 29 N</i><br />
+      <b>LONGITUDE:</b> <i>122 23 52 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.77472222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.39777777800</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.39777777781559,47.774722221909123</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43049</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308886</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 46 22 N</i><br />
+      <b>LONGITUDE:</b> <i>122 28 47 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.77277777780</i><br />
+      <b>LONGITUDE_:</b> <i>-122.47972222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.47972222225935,47.772777777464668</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43050</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308892</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 45 49 N</i><br />
+      <b>LONGITUDE:</b> <i>122 23 13 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.76361111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.38694444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.38694444448235,47.763611110798024</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43051</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308898</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 45 24 N</i><br />
+      <b>LONGITUDE:</b> <i>122 28 10 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.75666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-122.46944444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.46944444448168,47.756666666353532</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43052</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308904</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 38 19 N</i><br />
+      <b>LONGITUDE:</b> <i>122 50 14 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.63861111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.83722222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.83722222225641,47.638611110797804</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43053</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308910</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 35 38 N</i><br />
+      <b>LONGITUDE:</b> <i>122 30 24 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.59388888890</i><br />
+      <b>LONGITUDE_:</b> <i>-122.50666666700</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.50666666670358,47.593888888575506</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43054</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308916</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 32 28 N</i><br />
+      <b>LONGITUDE:</b> <i>122 38 42 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.54111111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.64500000000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.64500000003578,47.541111110797637</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43055</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308922</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 32 27 N</i><br />
+      <b>LONGITUDE:</b> <i>122 38 39 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.54083333330</i><br />
+      <b>LONGITUDE_:</b> <i>-122.64416666700</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.64416666670246,47.540833333019876</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43056</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308928</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 32 23 N</i><br />
+      <b>LONGITUDE:</b> <i>122 39 31 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.53972222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.65861111100</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.65861111114678,47.539722221908768</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43057</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308934</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 32 22 N</i><br />
+      <b>LONGITUDE:</b> <i>122 39 35 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.53944444440</i><br />
+      <b>LONGITUDE_:</b> <i>-122.65972222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.6597222222579,47.539444444130957</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43058</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308940</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 31 39 N</i><br />
+      <b>LONGITUDE:</b> <i>122 41 37 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.52750000000</i><br />
+      <b>LONGITUDE_:</b> <i>-122.69361111100</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.6936111111465,47.527499999686519</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43059</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308946</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 40 26 N</i><br />
+      <b>LONGITUDE:</b> <i>122 25 21 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.67388888890</i><br />
+      <b>LONGITUDE_:</b> <i>-122.42250000000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.4225000000376,47.67388888857564</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43060</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308952</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 40 23 N</i><br />
+      <b>LONGITUDE:</b> <i>122 25 20 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.67305555560</i><br />
+      <b>LONGITUDE_:</b> <i>-122.42222222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.42222222225983,47.6730555552423</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43061</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308958</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 38 25 N</i><br />
+      <b>LONGITUDE:</b> <i>122 25 38 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.64027777780</i><br />
+      <b>LONGITUDE_:</b> <i>-122.42722222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.4272222222598,47.640277777464469</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43062</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308964</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 33 21 N</i><br />
+      <b>LONGITUDE:</b> <i>122 24 12 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.55583333330</i><br />
+      <b>LONGITUDE_:</b> <i>-122.40333333300</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.40333333337109,47.555833333019898</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43063</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308970</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 31 16 N</i><br />
+      <b>LONGITUDE:</b> <i>122 18 29 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.52111111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.30805555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.30805555559409,47.521111110797612</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43064</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308976</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 30 40 N</i><br />
+      <b>LONGITUDE:</b> <i>122 18 06 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.51111111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.30166666700</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.30166666670527,47.511111110797628</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43065</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308982</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 17 53 N</i><br />
+      <b>LONGITUDE:</b> <i>122 25 37 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.29805555560</i><br />
+      <b>LONGITUDE_:</b> <i>-122.42694444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.42694444448202,47.298055555241717</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43066</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308988</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 17 52 N</i><br />
+      <b>LONGITUDE:</b> <i>122 25 40 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.29777777780</i><br />
+      <b>LONGITUDE_:</b> <i>-122.42777777800</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.42777777781536,47.297777777463949</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43067</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018308994</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 17 52 N</i><br />
+      <b>LONGITUDE:</b> <i>122 25 38 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.29777777780</i><br />
+      <b>LONGITUDE_:</b> <i>-122.42722222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.4272222222598,47.297777777463949</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43068</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018309000</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 17 50 N</i><br />
+      <b>LONGITUDE:</b> <i>122 25 39 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.29722222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.42750000000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.42750000003758,47.297222221908413</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43069</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018309006</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 17 46 N</i><br />
+      <b>LONGITUDE:</b> <i>122 25 52 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.29611111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.43111111100</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.43111111114868,47.296111110797298</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43070</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018309012</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 16 43 N</i><br />
+      <b>LONGITUDE:</b> <i>122 23 31 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.27861111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.39194444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.39194444448231,47.278611110797243</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43071</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018309018</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 16 41 N</i><br />
+      <b>LONGITUDE:</b> <i>122 23 31 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.27805555560</i><br />
+      <b>LONGITUDE_:</b> <i>-122.39194444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.39194444448231,47.278055555241693</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43072</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018309024</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 16 38 N</i><br />
+      <b>LONGITUDE:</b> <i>122 23 22 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.27722222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.38944444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.38944444448235,47.277222221908382</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43073</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018309030</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 16 27 N</i><br />
+      <b>LONGITUDE:</b> <i>122 22 47 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.27416666670</i><br />
+      <b>LONGITUDE_:</b> <i>-122.37972222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.37972222226017,47.274166666352819</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43074</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018309036</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 15 57 N</i><br />
+      <b>LONGITUDE:</b> <i>122 23 29 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.26583333330</i><br />
+      <b>LONGITUDE_:</b> <i>-122.39138888900</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.39138888892674,47.265833333019444</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43075</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018546456</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 59 02 N</i><br />
+      <b>LONGITUDE:</b> <i>122 14 46 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.98388888890</i><br />
+      <b>LONGITUDE_:</b> <i>-122.24611111100</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.24611111115014,47.983888888576104</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43093</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018616260</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 29 12 N</i><br />
+      <b>LONGITUDE:</b> <i>124 39 38 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.48666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.66055555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.66055555557479,47.486666666353116</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43094</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018616266</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 41 11 N</i><br />
+      <b>LONGITUDE:</b> <i>124 28 52 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.68638888890</i><br />
+      <b>LONGITUDE_:</b> <i>-124.48111111100</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.4811111111318,47.686388888575628</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43095</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664080</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 15 24 N</i><br />
+      <b>LONGITUDE:</b> <i>124 42 35 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.25666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-124.70972222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-124.70972222224104,48.256666666354327</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43096</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664086</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 21 32 N</i><br />
+      <b>LONGITUDE:</b> <i>123 06 06 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.35888888890</i><br />
+      <b>LONGITUDE_:</b> <i>-123.10166666700</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.10166666669868,47.358888888575152</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43097</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664092</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 33 29 N</i><br />
+      <b>LONGITUDE:</b> <i>123 01 25 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.55805555560</i><br />
+      <b>LONGITUDE_:</b> <i>-123.02361111100</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.02361111114378,47.55805555524212</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43098</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664098</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 10 12 N</i><br />
+      <b>LONGITUDE:</b> <i>123 42 15 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.17000000000</i><br />
+      <b>LONGITUDE_:</b> <i>-123.70416666700</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.70416666669375,48.169999999687533</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43099</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664104</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 08 53 N</i><br />
+      <b>LONGITUDE:</b> <i>123 06 20 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.14805555560</i><br />
+      <b>LONGITUDE_:</b> <i>-123.10555555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.10555555558756,48.14805555524304</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43100</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664110</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 04 51 N</i><br />
+      <b>LONGITUDE:</b> <i>123 01 52 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.08083333330</i><br />
+      <b>LONGITUDE_:</b> <i>-123.03111111100</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.03111111114374,48.080833333020713</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43102</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664122</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 09 42 N</i><br />
+      <b>LONGITUDE:</b> <i>123 12 47 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.16166666670</i><br />
+      <b>LONGITUDE_:</b> <i>-123.21305555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.21305555558668,48.161666666354179</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43103</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664128</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 10 00 N</i><br />
+      <b>LONGITUDE:</b> <i>123 12 09 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.16666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-123.20250000000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.20250000003119,48.166666666354196</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43104</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664134</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 07 40 N</i><br />
+      <b>LONGITUDE:</b> <i>123 15 42 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.12777777780</i><br />
+      <b>LONGITUDE_:</b> <i>-123.26166666700</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-123.26166666669738,48.127777777465248</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43111</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664176</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 24 08 N</i><br />
+      <b>LONGITUDE:</b> <i>122 31 37 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.40222222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.52694444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.5269444444812,47.402222221908552</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43112</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664182</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 19 58 N</i><br />
+      <b>LONGITUDE:</b> <i>122 34 53 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.33277777780</i><br />
+      <b>LONGITUDE_:</b> <i>-122.58138888900</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.58138888892519,47.33277777746401</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43113</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664188</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 09 54 N</i><br />
+      <b>LONGITUDE:</b> <i>122 38 06 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.16500000000</i><br />
+      <b>LONGITUDE_:</b> <i>-122.63500000000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.63500000003587,47.164999999703795</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43114</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664194</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 12 42 N</i><br />
+      <b>LONGITUDE:</b> <i>122 45 15 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.21166666670</i><br />
+      <b>LONGITUDE_:</b> <i>-122.75416666700</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.75416666670154,47.211666666352713</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43115</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664200</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 08 25 N</i><br />
+      <b>LONGITUDE:</b> <i>122 41 39 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.14027777780</i><br />
+      <b>LONGITUDE_:</b> <i>-122.69416666700</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.69416666670205,47.140277777481622</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43116</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664206</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 06 36 N</i><br />
+      <b>LONGITUDE:</b> <i>122 40 47 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.11000000000</i><br />
+      <b>LONGITUDE_:</b> <i>-122.67972222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.67972222225771,47.109999999703874</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43117</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664212</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 13 48 N</i><br />
+      <b>LONGITUDE:</b> <i>122 33 54 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.23000000000</i><br />
+      <b>LONGITUDE_:</b> <i>-122.56500000000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.56500000003643,47.229999999686079</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43118</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664218</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 14 12 N</i><br />
+      <b>LONGITUDE:</b> <i>122 37 46 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.23666666670</i><br />
+      <b>LONGITUDE_:</b> <i>-122.62944444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.62944444448031,47.236666666352733</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43119</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664224</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 59 45 N</i><br />
+      <b>LONGITUDE:</b> <i>122 51 38 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.99583333330</i><br />
+      <b>LONGITUDE_:</b> <i>-122.86055555600</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.86055555558957,47.995833333020592</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43120</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664230</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 55 34 N</i><br />
+      <b>LONGITUDE:</b> <i>122 30 05 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.92611111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.50138888900</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.50138888892585,47.926111110798246</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43121</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664236</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 23 49 N</i><br />
+      <b>LONGITUDE:</b> <i>122 27 44 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.39694444440</i><br />
+      <b>LONGITUDE_:</b> <i>-122.46222222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.46222222225953,47.396944444130753</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43122</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664242</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 23 03 N</i><br />
+      <b>LONGITUDE:</b> <i>122 22 52 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.38416666670</i><br />
+      <b>LONGITUDE_:</b> <i>-122.38111111100</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.38111111114907,47.384166666352961</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43123</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664248</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 19 41 N</i><br />
+      <b>LONGITUDE:</b> <i>122 23 33 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.32805555560</i><br />
+      <b>LONGITUDE_:</b> <i>-122.39250000000</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.39250000003787,47.328055555241782</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43124</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664254</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 53 34 N</i><br />
+      <b>LONGITUDE:</b> <i>122 19 47 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.89277777780</i><br />
+      <b>LONGITUDE_:</b> <i>-122.32972222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.32972222226059,47.892777777464879</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43125</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664260</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 53 33 N</i><br />
+      <b>LONGITUDE:</b> <i>122 19 44 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.89250000000</i><br />
+      <b>LONGITUDE_:</b> <i>-122.32888888900</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.32888888892725,47.892499999687097</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43126</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664266</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 53 35 N</i><br />
+      <b>LONGITUDE:</b> <i>122 19 43 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.89305555560</i><br />
+      <b>LONGITUDE_:</b> <i>-122.32861111100</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.3286111111495,47.89305555524264</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43127</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664272</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 56 28 N</i><br />
+      <b>LONGITUDE:</b> <i>122 26 30 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.94111111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.44166666700</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.44166666670412,47.941111110798282</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43128</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664278</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 56 04 N</i><br />
+      <b>LONGITUDE:</b> <i>122 27 05 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.93444444440</i><br />
+      <b>LONGITUDE_:</b> <i>-122.45138888900</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.45138888892626,47.934444444131579</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43129</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664284</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 55 25 N</i><br />
+      <b>LONGITUDE:</b> <i>122 23 29 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.92361111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.39138888900</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.39138888892674,47.923611110798241</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43130</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664290</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>47 55 24 N</i><br />
+      <b>LONGITUDE:</b> <i>122 23 23 W</i><br />
+      <b>LATITUDE_D:</b> <i>47.92333333330</i><br />
+      <b>LONGITUDE_:</b> <i>-122.38972222200</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.38972222226012,47.923333333020473</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43131</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664296</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 17 05 N</i><br />
+      <b>LONGITUDE:</b> <i>122 31 16 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.28472222220</i><br />
+      <b>LONGITUDE_:</b> <i>-122.52111111100</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.52111111114789,48.284722221909959</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43132</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664302</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 02 29 N</i><br />
+      <b>LONGITUDE:</b> <i>122 52 19 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.04138888890</i><br />
+      <b>LONGITUDE_:</b> <i>-122.87194444400</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.87194444447836,48.041388888576215</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43133</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664308</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 11 35 N</i><br />
+      <b>LONGITUDE:</b> <i>122 46 40 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.19305555560</i><br />
+      <b>LONGITUDE_:</b> <i>-122.77777777800</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.77777777781246,48.19305555524312</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>43138</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0018664338</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>E</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 03 31 N</i><br />
+      <b>LONGITUDE:</b> <i>122 17 36 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.05861111110</i><br />
+      <b>LONGITUDE_:</b> <i>-122.29333333300</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>GMWD</i><br />
+   ]]></description>      <Point><coordinates>-122.29333333337199,48.058611110798466</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#wreck</styleUrl>
+    <description><![CDATA[
+      <b>ID:</b> <i>253949</i><br />
+      <b>CLASS:</b> <i>(UNC)</i><br />
+      <b>NSS_ID:</b> <i>0000326281</i><br />
+      <b>NAME:</b> <i>UNKNOWN</i><br />
+      <b>FLAG:</b> <i>??</i><br />
+      <b>FEAT_TYPE:</b> <i>UNK</i><br />
+      <b>TYPEOFSINK:</b> <i>UN</i><br />
+      <b>POSITEVAL:</b> <i>F</i><br />
+      <b>SOURCE:</b> <i>CG</i><br />
+      <b>GEOQUAD:</b> <i>2</i><br />
+      <b>LATITUDE:</b> <i>48 12 02 N</i><br />
+      <b>LONGITUDE:</b> <i>122 46 48 W</i><br />
+      <b>LATITUDE_D:</b> <i>48.20055555560</i><br />
+      <b>LONGITUDE_:</b> <i>-122.78000000000</i><br />
+      <b>DATEOFINFO:</b> <i>20000627</i><br />
+      <b>TYPECODE:</b> <i>1</i><br />
+      <b>DATASOURCE:</b> <i>NIMA</i><br />
+   ]]></description>      <Point><coordinates>-122.78000000003468,48.200555555243163</coordinates></Point>
+  </Placemark>
+</Folder></Document></kml>

@@ -1,0 +1,678 @@
+<html lang="en">
+<head>
+	<!-- Use correct character set. -->
+	<meta charset="utf-8">
+	<!-- Tell IE to use the latest, best version (or Chrome Frame if pre-IE11). -->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="description" content="Create 3D models using glTF.">
+    <meta name="cesium-sandcastle-labels" content="Tutorials,Showcases">
+    <title>Big Data for the Belt & Road</title>
+    <link href="css/webwidget_vertical_menu.css" rel="stylesheet" type="text/css"></link>
+    <link rel="stylesheet" type="text/css" href="css/measureBoxStyle.css">
+<style>
+
+    @import url(../Sandcastle/templates/bucket.css);
+	@import url(css/obor_css2.css);
+    @import url(css/custom2.css);
+    @import url(../../Build/Cesium/Widgets/widgets.css);
+    @import url(css/jquery-ui.css);
+    @import url(css/d3chart.css);
+    .axis path,
+       .axis line {
+           fill: none;
+           stroke: white;
+        }
+	<!--修改时钟的大小-->
+
+	.cesium-viewer-animationContainer 
+	{width: 160px !important; height: 100px !important; position: absolute; bottom: 0px; left: 0px; overflow: hidden ;}
+	.cesium-viewer-animationContainer  svg
+	{width: 160px !important; height:100px !important; position: absolute; bottom: 0px; left: 0px; overflow: hidden;}
+     #trailer {
+        position: absolute;
+        bottom: 75px;
+        right: 0;
+        width: 320px;
+        height: 180px;
+        z-index:9999;
+    }
+     
+</style>
+</head>
+<!--引用中文字体
+ <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://www.youziku.com/webfont/CSS/c0a243634d2b2941fcd81bb43ec118ef' rel='stylesheet' type='text/css'/></head>
+-->
+<body>
+ <div id="title">
+    <div id="one">
+         <img  id='logo' src="img/obor-logo.gif" >
+        <p id="pp">一带一路大数据</p>
+         <p id="pt">Big Data for the Belt & Road</p>
+    </div>
+    <div class="wrap">
+      <div id="pic_list_2" class="scroll_horizontal">
+        <span class="prev"></span>
+        
+		<div class="box">
+			<ul class="list">
+				<li><a href="#"><img src="img/slider01.jpg" class="img"></a></li>
+				<!--href="#",表示连接到当前页面且不做刷新-->
+				<li><a href="#"><img src="img/slider02.jpg" class="img"></a></li>
+				<li><a href="#"><img src="img/slider03.jpg" class="img"></a></li>
+				<li><a href="#"><img src="img/slider04.jpg" class="img"></a></li>
+				<li><a href="#"><img src="img/slider05.jpg" class="img"></a></li>
+                <li><a href="#"><img src="img/slider06.jpg" class="img"></a></li>
+                <li><a href="#"><img src="img/slider07.jpg" class="img"></a></li>
+                <li><a href="#"><img src="img/slider08.jpg" class="img"></a></li>
+                <li><a href="# "><img src="img/slider09.jpg" class="img"></a></li>
+                <li><a href="#"><img src="img/slider10.jpg" class="img"></a></li>
+			</ul>
+		</div>
+
+	 </div> 
+   </div>
+</div> 
+<div id="cesiumContainer" >
+    <div id="radio" style="position:absolute; top:5px; right:55%; height: 30px;z-index:9999">
+		<input type="radio" id="health" name="healthwealth" checked="checked"><label for="health">Health</label><!--lable for属性 与相应id值的input绑定-->
+		<input type="radio" id="wealth" name="healthwealth"><label for="wealth">Wealth</label>
+	</div>
+	<div id="chart" style="position:absolute; top:3px; left:3px; z-index:9999"></div>
+	<div id="info" title="国民健康与财富" style="position:absolute; bottom:15%; right:3%; z-index:19999"></div>
+    <span style="width: 200px; height: 300px; position:absolute;left:3px;top:3px;Display:none;z-index:3" id='mylegend'>
+<img id='legendbox' src="" style="max-width:200px;min-width:100px;max-height:280px;min-height:120px;" ><!--设置min-width等可以自适应调整图片大小-->
+</span>
+</div> 
+
+<div id="navigation">
+	<ul id="listUL">
+		<!--一级菜单-->
+		<li><span class="lebox"></span><span class='menu_first'>All&nbsp;Countries</span>
+        <ul  class="myShow">
+			<!--二级菜单-->
+			<!--
+			<li><a>pesduo pop<span style="color:#F0F8FF;position:relative;left:-110px;font-size:1.5em;">+</span></a>
+				<ul class="myHide">
+					<li><a>test</a></li>
+					<li><a>test</a></li>
+				</ul>
+			</li>
+			-->
+			
+			<!--二级菜单-->
+			<!--
+			<li><a>pesduo GDP<span style="color:#F0F8FF;position:relative;left:-110px;font-size:1.5em;">+</span></a>
+				<ul class="myHide">
+					<li><a>test</a></li>
+					<li><a>test</a></li>
+				</ul>			
+			</li>
+			-->
+<!--第三个二级菜单-->
+<li><a>Country Distribution<span style="color:#F0F8FF;position:relative;left:-185px;font-size:2em;">+</span></a>
+<ul class="myHide" name='all_country' >
+<!--A开头-->
+<li><a title="奥地利">Austria</a></li>
+<li><a title="阿尔及利亚">Algeria</a></li>
+<li><a title="阿根廷">Argentina</a></li>
+<li><a title="埃塞尔比亚">Ethiopia</a></li>
+<li><a title="安哥拉">Angola</a></li>
+<li><a title="安提瓜和巴布达">Antigua and Barbuda</a></li>
+<li><a title="安道尔共和国">Andorra</a></li>
+<li><a title="澳大利亚">Australia</a></li>
+<li><a title="爱尔兰">Ireland</a></li>
+<!--B开头-->
+<li><a title="玻利维亚">Bolivia</a></li>
+<li><a title="巴哈马">Bahamas</a></li>
+<li><a title="贝宁">Benin</a></li>
+<li><a title="秘鲁">Peru</a></li>
+<li><a title="比利时">Belgium</a></li>
+<li><a title="冰岛">Iceland</a></li>
+<li><a title="百慕大群岛">Bermuda</a></li>
+<li><a title="北马里亚纳群岛">Northern Mariana Islands</a></li>
+<li><a title="博茨瓦纳">Botswana</a></li>
+<li><a title="巴巴多斯">Barbados </a></li>
+<li><a title="巴布亚新几内亚">Papua New Guinea</a></li>
+<li><a title="巴拉圭">Paraguay</a></li>
+<li><a title="巴拿马">Panama</a></li>
+<li><a title="波多黎各">Puerto Rico</a></li>
+<li><a title="波黑">Bosnia and Herzegovina</a></li>
+<li><a title="巴西">Brazil</a></li>
+<li><a title="伯利兹">Belize</a></li>
+<li><a title="布基纳法索">burkina faso</a></li>
+<li><a title="布隆迪">Burundi</a></li>
+<!--C开头-->
+<li><a title="朝鲜">Korea</a></li>
+<li><a title="赤道几内亚">Equatorial Guinea </a></li>
+<!--D开头-->
+<li><a title="德国">Germany</a></li>
+<li><a title="丹麦">Denmark</a></li>
+<li><a title="多哥">Togo</a></li>
+<li><a title="多米尼亚">Dominica</a></li>
+<li><a title="多米尼加共和国">Dominica</a></li>
+<!--E开头-->
+<li><a title="厄瓜多尔">Ecuador </a></li>
+<li><a title="厄立特里亚">Eritrea</a></li>
+<!--F开头-->
+<li><a title="佛佛得角">Cape Verde</a></li>
+<li><a title="芬兰">Finland</a></li>
+<li><a title="斐济">Fiji</a></li>
+<li><a title="法国">France</a></li>
+<li><a title="法属圭亚那">French Guiana</a></li>
+<li><a title="法属波利尼西亚">French Polynesia</a></li>
+<li><a title="法罗群岛">the Faroe Islands</a></li>
+<!--G开头-->
+<li><a title="哥伦比亚">Columbia</a></li>
+<li><a title="圭亚那">Guyana</a></li>
+<li><a title="哥斯达黎加">Costa Rica </a></li>
+<li><a title="凯尔盖群岛">Kerguelen Islands</a></li>
+<li><a title="刚果民主共和国">democratic republic of congo</a></li>
+<li><a title="冈比亚">Gambia </a></li>
+<li><a title="古巴">Cuba</a></li>
+<li><a title="瓜德罗普">guadeloupe</a></li>
+<li><a title="格林纳达">Grenada</a></li>
+<li><a title="格林兰">Greenland</a></li>
+<!--H开头-->
+<li ><a title="韩国">Korea</a></li>
+<li><a title="荷兰">Holland</a></li>
+<li><a title="洪都拉斯">Honduras</a></li>
+<li><a title="海地">Haiti</a></li>
+<!--K开头-->
+<li><a title="科摩多伊斯兰">Comorin</a></li>
+<li><a title="科特迪瓦">Ivory Coast</a></li>
+<!--L开头-->
+<li><a title="留尼汪岛">Reunion</a></li>
+<li><a title="利比亚">Libya</a></li>
+<li><a title="利比里亚">Liberia</a></li>
+<li><a title="列支敦士登">Liechtenstein</a></li>
+<li><a title="卢旺达">Rwanda</a></li>
+<li><a title="卢森堡">Luxembourg</a></li>
+<li><a title="莱索托">Lesotho</a></li>
+<!--J开头-->
+<li><a title="加拿大">Canada</a></li>
+<li><a title="津巴布韦">Zimbabwe</a></li>
+<li><a title="加沙">Gaza</a></li>
+<li><a title="加纳">Ghana</a></li>
+<li><a title="加蓬">Gabon</a></li>
+<li><a title="几内亚">Guinea</a></li>
+<li><a title="几内亚比绍">Guinea-Bissau</a></li>
+<li><a title="基里巴斯">Kiribati</a></li>
+<li><a title="吉布提">Djibouti</a></li>
+<!--K开头-->
+<li><a title="喀麦隆">Cameroon</a></li>
+<li><a title="肯尼亚">Kenya</a></li>
+<li><a title="克罗地亚">Croatia</a></li>
+<!--M开头-->
+<li><a title="美国">America</a></li>
+<li><a title="墨西哥">Mexico</a></li>
+<li><a title="摩洛哥">Morocco</a></li>
+<li><a title="摩纳哥">Monaco</a></li>
+<li><a title="马尔维纳斯群岛">Malvinas Islands</a></li>
+<li><a title="马恩岛">Isle of Man</a></li>
+<li><a title="马拉维">Malawi</a></li>
+<li><a title="马提尼克岛">Martinique</a></li>
+<li><a title="马耳他">Malta</a></li>
+<li><a title="马达加斯加">Madagascar</a></li>
+<li><a title="马里">Mali</a></li>
+<li><a title="莫桑比克">Mozambique</a></li>
+<li><a title="毛里求斯">Mauritius</a></li>
+<!--N开头-->
+<li><a title="挪威">Norway</a></li>
+<li><a title="尼加瓜拉">Nicaragua</a></li>
+<li><a title="尼日尼亚"> Nigeria</a></li>
+<li><a title="尼日尔">Niger</a></li>
+<li><a title="纳米比亚">Namibia</a></li>
+<li><a title="南极洲">Antarctica</a></li>
+<li><a title="南非">South Africa</a></li>
+<!--P开头-->
+<li><a title="葡萄牙">Portugal</a></li>
+<!--T开头-->
+<li><a title="坦桑尼亚">Tanzania</a></li>
+<li><a title="特克斯和凯科斯群岛">turks and caicos islands</a></li>
+<li><a title="特立尼达和多巴哥">Trinidad and Tobago</a></li>
+<li><a title="突尼斯">Tunisia</a></li>
+<!--W开头-->
+<li><a title="乌干达">Uganda</a></li>
+<li><a title="乌拉圭">Uruguay</a></li>
+<li><a title="瓦努阿图">Vanuatu</a></li>
+<li><a title="危地马拉">Guatemala</a></li>
+<!--R开头-->
+<li><a title="瑞典">Sweden</a></li>
+<li><a title="瑞士">Switzerland</a></li>
+<li><a title="日本">Japan</a></li>
+<!--S开头-->
+<li><a title="所罗门群岛">Solomon Islands</a></li>
+<li><a title="塞内加尔">Senegal</a></li>
+<li><a title="塞尔维亚">serbia</a></li>
+<li><a title="塞拉利昂">sierra leone</a></li>
+<li><a title="塞浦路斯">Cyprus</a></li>
+<li><a title="塞舌尔">Seychelles</a></li>
+<li><a title="索马里">Somalia</a></li>
+<li><a title="萨尔瓦多">Salvador</a></li>
+<li><a title="苏丹">sultan</a></li>
+<li><a title="苏里南">Surinam</a></li>
+<li><a title="圣多美岛和普林西比岛">STP</a></li>
+<li><a title="圣露西亚">Saint Lucia</a></li>
+<li><a title="圣马力诺">San Marino</a></li>
+<li><a title="斯威士兰">Swaziland </a></li>
+<li><a title="斯瓦尔巴特群岛">svalbard</a></li>
+<!--T开头-->
+<li><a title="汤加">Tonga</a></li>
+<!--W开头-->
+<li><a title="委内瑞拉">Venezuela </a></li>
+<!--X开头-->
+<li><a title="希腊">Greece</a></li>
+<li><a title="新喀里多尼亚岛">New Caledonia</a></li>
+<li><a title="新西兰">New Zealand</a></li>
+<!--Y开头-->
+<li><a title="英国">England</a></li>
+<li><a title="意大利">Italy</a></li>
+<li><a title="扬马延岛">Jan Mayen</a></li>
+<li><a title="牙买加">Jamaica</a></li>
+<li><a title="伊拉克">Iraq</a></li>
+<!--Z开头-->
+<li><a title="赞比亚">Zambia</a></li>
+<li><a title="刚果">Congo</a></li>
+<li><a title="中非共和国">Central African Republic</a></li>
+<li><a title="乍得">Chad</a></li>
+<li><a title="智利">Chile</a></li>
+				</ul>
+			</li>
+
+<!--二级菜单-->
+<!--
+<li id='allname_control'><input checked="checked"  type='checkbox' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>显示全球国名</a></li>
+-->
+<li id='POPcontrol'><input id='POP_checkbox' type='checkbox' class='contro' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Population</a></li>
+<li id='GDPcontrol'><input  id='GDP_checkbox' type='checkbox' class='contro' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a> Per Capita GDP</a></li>
+<li id='decontrol'><input  id='de_checkbox' type='checkbox' class='contro' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Social Development(1800 —)</a></li>
+
+
+		</ul>
+		</li>
+        
+<!--一级菜单-->
+<li><span class="lebox"></span><span class='menu_first'>The Belt nd Road</span>
+<ul class="myShow">
+<!--二级菜单-->
+<!--
+<li id='brname_control'><input type='checkbox' checked="checked" style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>显示沿线国名</a></li>
+-->
+<li><a>Countries Involved<span style="color:#F0F8FF;position:relative;left:-170px;font-size:2em;">+</span></a>
+<!--三级菜单-->
+<ul class="myHide" name='along_country'>
+
+            	<li ><a title="中国">China</a></li>
+				<li ><a title="蒙古">Mongolia</a></li>
+				<li ><a title="俄罗斯">Russia</a></li>
+				<li ><a title="印度">India</a></li>
+				<li ><a title="巴基斯坦">Pakistan</a></li>
+				<li ><a title="印度尼西亚">Indonesia</a></li>
+				<li ><a title="泰国">Thailand </a></li>
+				<li ><a title="马来西亚">Malaysia</a></li>
+				<li ><a title="越南">Vietnam</a></li>
+				<li ><a title="新加坡">Singapore</a></li>
+				<li ><a title="菲律宾">Philippines</a></li>
+				<li ><a title="缅甸">Myanmar</a></li>
+				<li ><a title="柬埔寨">Cambodia </a></li>
+				<li ><a title="文莱">Brunei</a></li>
+				<li ><a title="东帝汶">east Timor</a></li>
+				<li ><a title="乌克兰">Ukraine</a></li>
+				<li ><a title="白俄罗斯"> Belarus</a></li>
+				<li ><a title="格鲁吉亚">Georgia</a></li>
+				<li ><a title="阿塞拜疆">Azerbaijan</a></li>
+				<li ><a title="亚美尼亚"> Armenia</a></li>
+				<li ><a title="摩尔多瓦">Moldova</a></li>
+				<li ><a title="巴勒斯坦">Palestine</a></li>
+				<li ><a title="孟加拉国">Bangladesh</a></li>
+				<li ><a title="斯里兰卡">Sri Lanka</a></li>
+				<li ><a title="阿富汗">Afghanistan</a></li>
+				<li ><a title="尼泊尔">Nepal</a></li>
+				<li ><a title="马尔代夫">Maldives</a></li>
+				<li ><a title="不丹">Bhutan</a></li>
+				<li ><a title="沙特阿拉伯">Saudi Arabia</a></li>
+				<li ><a title="阿联酋">United Arab Emirates</a></li>
+				<li ><a title="阿曼">Oman</a></li>
+				<li ><a title="伊朗">Iran</a></li>
+				<li ><a title="土耳其">Turkey</a></li>
+				<li ><a title="以色列">Israel</a></li>
+				<li ><a title="埃及">Egypt</a></li>
+				<li ><a title="科威特">Kuwait</a></li>
+				<li ><a title="伊拉克">Iraq</a></li>
+				<li ><a title="卡塔尔">Qatar</a></li>
+				<li ><a title="约旦">Jordan</a></li>
+				<li ><a title="黎巴嫩">Lebanon</a></li>
+				<li ><a title="巴林">Bahrain</a></li>
+				<li ><a title="也门共和国">Yemen</a></li>
+				<li ><a title="叙利亚">Syria</a></li>
+
+				<li ><a title="波兰">Poland</a></li>
+				<li ><a title="罗马尼亚">Romania</a></li>
+				<li ><a title="捷克共和国">Czech</a></li>
+				<li ><a title="斯洛伐克">Slovakia</a></li>
+				<li ><a title="保加利亚">Bulgaria</a></li>
+				<li ><a title="匈牙利">Hungary</a></li>
+				<li ><a title="拉托维亚">Latvia</a></li>
+				<li ><a title="立陶宛">Lithuania</a></li>
+				<li ><a title="斯洛文尼亚">Slovenia</a></li>
+				<li ><a title="爱沙尼亚">Estonia</a></li>
+				<li ><a title="克罗地亚">Croatia</a></li>
+				<li ><a title="阿尔巴尼亚">Albania</a></li>
+				<li ><a title="塞尔维亚">serbia</a></li>
+				<li ><a title="马其顿">Macedonia</a></li>
+				<li ><a title="波黑">Bosnia</a></li>
+				<li ><a title="黑山">Montenegro</a></li>
+				<li ><a title="哈萨克斯坦">Kazakhstan</a></li>
+				<li ><a title="乌兹别克斯坦">Uzbekistan</a></li>
+				<li ><a title="土库曼斯坦"> Turkmenistan</a></li>
+				<li ><a title="吉尔吉斯斯坦">Kyrghyzstan</a></li>
+				<li ><a title="塔吉克斯坦">Tajikistan</a></li>
+                <li ><a title="希腊">Greece</a></li>
+                <li ><a title="塞浦路斯">Cyprus</a></li>
+               
+</ul> 
+</li>
+
+
+<!--二级菜单-->
+<li><a>Plate Distribution<span style="color:#F0F8FF;position:relative;left:-170px;font-size:2em;">+</span></a>
+    	<!--三级菜单-->
+   <ul class="myHide">
+		<li id='ceeurope' class="imarea"><a class="why">Central and Eastern Europe<span style="color:#F0F8FF;position:relative;left:-227px;font-size:1.5em;">+</span></a>
+			<ul class="myHide" >
+                <li  class="ashow"><input class='areashow' type='checkbox' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Layer&nbsp;Display</a></li>
+                <li><a  title="波兰">Poland</a></li>
+                <li><a title="立陶宛">Lithuania</a></li>
+                <li><a title="爱沙尼亚">Estonia</a></li>
+                <li><a title="拉脱维亚">Latvia</a></li>
+                <li><a title="捷克">Czech</a></li>
+                <li><a title="斯洛伐克">Slovakia</a></li>
+                <li><a title="匈牙利">Hungary</a></li>
+                <li><a title="斯洛文尼亚">Slovenia</a></li>
+                <li><a title="克罗地亚">Croatia</a></li>
+                <li><a title="波黑">Bosnia</a></li>
+                <li><a title="黑山">Montenegro</a></li>
+                <li><a title="塞尔维亚">serbia</a></li>
+                <li><a title="阿尔巴尼亚">Albania</a></li>
+                <li><a title="罗马尼亚">Romania</a></li>
+                <li><a title="保加利亚">Bulgaria</a></li>
+                <li><a title="马其顿">Macedonia</a></li>
+			</ul>
+        </li>
+        <li id='waisa' class="imarea"><a class="why"> Western Asia<span style="color:#F0F8FF;position:relative;left:-123px;font-size:1.5em;">+</span></a>
+			<ul class="myHide">
+                <li  class="ashow"><input  class='areashow'  type='checkbox' checked style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Layer Display</a></li>
+                <li><a title="伊朗">Iran</a></li>
+                <li><a title="伊拉克">Iraq</a></li>
+                <li><a title="土耳其">turkey</a></li>
+                <li><a title="叙利亚">Syria</a></li>
+                <li><a title="约旦">Syria</a></li>
+                <li><a title="黎巴嫩">Lebanon</a></li>
+                <li><a title="以色列">Israel</a></li>
+                <li><a title="巴勒斯坦">Palestine</a></li>
+                <li><a title="沙俄阿拉伯">Saudi Arabia</a></li>
+                <li><a title="也门">Yemen</a></li>
+                <li><a title="阿曼">Oman</a></li>
+                <li><a title="阿联酋">United Arab Emirates</a></li>
+                <li><a title="卡塔尔">Qatar</a></li>
+                <li><a title="科威特">Kuwait</a></li>
+                <li><a title="巴林">Bahrain</a></li>
+                <li><a title="希腊">Greece</a></li>
+                <li><a title="塞浦路斯">Cyprus</a></li>
+                <li><a title="埃及">Egypt</a></li>
+			</ul>
+        </li>
+        <li id='maisa' class="imarea"><a class="why">Central Asia<span style="color:#F0F8FF;position:relative;left:-123px;font-size:1.5em;">+</span></a>
+			<ul class="myHide">
+                <li class="ashow"><input class='areashow'  type='checkbox' checked style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Layer Display</a></li>
+                <li><a title="哈萨克斯坦">Kazakhstan</a></li>
+                <li><a title="乌兹别克斯坦">Uzbekistan</a></li>
+                <li><a title="土库曼斯坦他">Turkmenistan</a></li>
+                <li><a title="吉尔吉斯斯坦">Kyrghyzstan</a></li>
+                <li><a title="塔吉克斯坦">Tajikistan</a></li>
+			</ul>
+        </li>
+        <li id='saisa' class="imarea"><a class="why">South Asia<span style="color:#F0F8FF;position:relative;left:-108px;font-size:1.5em;">+</span></a>
+			<ul class="myHide">
+                <li  class="ashow"><input class='areashow' checked type='checkbox'  style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Layer Display</a></li>
+                <li><a title="印度">India</a></li>
+                <li><a title="巴基斯坦">Pakistan</a></li>
+                <li><a title="孟加拉国">Bangladesh</a></li>
+                <li><a title="阿富汗">Afghanistan</a></li>
+                <li><a title="斯里兰卡">Sri Lanka</a></li>
+                <li><a title="马尔代夫">Maldives</a></li>
+                <li><a title="尼泊尔">Nepal</a></li>
+                <li><a title="不丹">Bhutan</a></li>
+			</ul>
+        </li>
+         <li id='eaisa'class="imarea"><a class="why">East&nbsp;Asia<span style="color:#F0F8FF;position:relative;left:-108px;font-size:1.5em;">+</span></a>
+			<ul class="myHide">
+                <li  class="ashow"><input class='areashow' checked type='checkbox' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Layer Display</a></li>
+                <li><a title="中国">China</a></li>
+                <li><a title="蒙古">Mongolia</a></li>
+			</ul>
+        </li>
+        <li id='asean' class="imarea"><a class="why" style="line-height: 12px;">Association of Southeast Asian Nations<span style="color:#F0F8FF;position:relative;left:-85px;font-size:1.5em;">+</span></a>
+			<ul class="myHide">
+                <li  class="ashow"><input class='areashow' checked type='checkbox'  style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Layer Display</a></li>
+                <li><a title="新加坡">Singapore</a></li>
+                <li><a title="马来西亚">Malaysia</a></li>
+                <li><a title="印度尼西亚">Indonesia</a></li>
+                <li><a title="缅甸">Burma</a></li>
+                <li><a title="泰国">Thailand</a></li>
+                <li><a title="老挝">Thailand</a></li>
+                <li><a title="柬埔寨">Cambodia</a></li>
+                <li><a title="越南">Vietnam</a></li>
+                <li><a title="文莱">Brunei</a></li>
+                <li><a title="菲律宾">Philippines</a></li>
+			</ul>
+        </li>
+         <li id='cis' class="imarea"><a class="why" style="line-height: 12px;">Commonwealth  of Independent States<span style="color:#F0F8FF;position:relative;left:-78px;font-size:1.5em;">+</span></a>
+			<ul class="myHide">
+                <li  class="ashow"><input class='areashow' checked type='checkbox' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Layer Display</a></li>
+                <li><a title="俄罗斯">Russia</a></li>
+                <li><a title="乌克兰">Ukraine</a></li>
+                <li><a title="白俄罗斯">Belarus</a></li>
+                <li><a title="格鲁吉亚">Georgia</a></li>
+                <li><a title="阿塞拜疆">Azerbaijan </a></li>
+                <li><a title="亚美尼亚">Armenia</a></li>
+                <li><a title="摩尔多瓦">Moldova</a></li>
+			</ul>
+        </li>
+    </ul>
+</li>
+<li id='route_control'><a>Route Tracking<span style="color:#F0F8FF;position:relative;left:-140px;font-size:2em;">+</span></a>
+      <ul class="myHide" id='hascheckbox'>
+		   <li id="northA_line"><input id='northA_line_checkbox' type='checkbox' class='route'  style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>North line A</a></li>
+		   <li id="northB_line"><input  id='northB_line_checkbox' type='checkbox' class='route' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Northern line B</a></li>
+		   <li id="mid_line"><input id='mid_line_checkbox'  type='checkbox' class='route' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Central line</a></li>
+		   <li id="center_line"><input  id='center_line_checkbox' class='route' type='checkbox'  style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Cardinal line</a></li>
+		   <li id="south_line"><input  id='south_line_checkbox' class='route' type='checkbox'  style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>South Line</a></li>
+
+       </ul>
+ </li>
+
+<!--文明类型start-->
+<!--二级菜单-->
+<li><a>Civilization Type<span style="color:#F0F8FF;position:relative;left:-163px;font-size:2em;">+</span></a>
+
+
+	<!--三级菜单-->
+   <ul class="myHide">
+		<li id='Kotkin_cival'><a title="沿线国家占七种">Classified by Joel Kotkin<span style="color:#F0F8FF;position:relative;left:-219px;font-size:1.5em;">+</span></a>
+			<ul class="myHide" id='hascheckbox01'>
+           <li id='Middle_Kingdom'><input  id='Middle_Kingdom_checkbox'  type='checkbox' class='Kotkin' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a >Middle Kingdom</a></li>
+		   <li id='Border_Areas'><input id='Border_Areas_checkbox'  type='checkbox' class='Kotkin' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>the Border Areas</a></li>
+		   <li id='Olive_Republics'><input  id='Olive_Republics_checkbox' type='checkbox' class='Kotkin' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Olive Republics</a></li>
+		   <li id='Imperial_Russia'><input id='Imperial_Russia_checkbox' type='checkbox' class='Kotkin' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Russian Empire</a></li>
+		   <li id='Wild_East'><input  id='Wild_East_checkbox' type='checkbox' class='Kotkin' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>the ild East</a></li>
+		   <li id='Iranistan'><input id='Iranistan_checkbox' type='checkbox' class='Kotkin' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Iranistan</a></li>
+		   <li id='Greater_Arabia'><input  id='Greater_Arabia_checkbox' type='checkbox' class='Kotkin' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Greater Arabia</a></li>
+		   <li id='Rubber_Belt'><input  id='Rubber_Belt_checkbox' type='checkbox' class='Kotkin' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>the Rubber Belt</a></li>
+		   <li id='Ottoman_Empire'><input id='Ottoman_Empire_checkbox' type='checkbox' class='Kotkin' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>the New Ottomans</a></li>
+		   <li id='Stand_Alones'><input id='Stand_Alones_checkbox' type='checkbox' class='Kotkin' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Stand-Alones</a></li>
+		   
+			</ul>
+		</li>
+
+	<li id='HTD_cival'><a title="沿线国家占七种" style="line-height: 12px;">Classified by Joel Huntington<span style="color:#F0F8FF;position:relative;left:-250px;font-size:1.5em;">+</span></a>
+		<ul class="myHide" id='hascheckbox02'>
+           <li id='sinic'><input id='sinic_checkbox' type='checkbox' class='HTD' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Sinic</a></li>
+		   <li id='islanmic'><input id='islanmic_checkbox' type='checkbox' class='HTD' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Islamic</a></li>
+		   <li id='hindu'><input  id='hindu_checkbox' type='checkbox' class='HTD' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Hindu</a></li>
+		   <li id='orthodox'><input id='orthodox_checkbox' type='checkbox' class='HTD' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Orthodox</a></li>
+		   <li id='western'><input  id='western_checkbox' type='checkbox' class='HTD' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Western</a></li>
+		   <li id='buddhist'><input id='buddhist_checkbox' type='checkbox' class='HTD' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Buddhist</a></li>
+    
+		</ul>
+	</li>
+	</ul>
+
+ </li>
+<!--文明类型end-->
+
+<!--国家治理start-->
+<!--二级菜单-->
+<li id='Nation_status'><a> National Governance<span style="color:#F0F8FF;position:relative;left:-178px;font-size:2em;">+</span></a>
+      <ul class="myHide" id='hascheckbox03'>
+		   	<li id='Nation_stable' ><input id='Nation_stable_checkbox' type='checkbox' class='nation' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Stable</a></li>
+		   <li id='Nation_better'><input  id='Nation_better_checkbox' type='checkbox' class='nation' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Relatively stable</a></li>
+		   <li id='Nation_issue' ><input  id='Nation_issue_checkbox' type='checkbox' class='nation' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Problematic</a></li>
+           <li id='Nation_failure'><input  id='Nation_failure_checkbox'  type='checkbox' class='nation' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Failed</a></li>
+       </ul>
+ </li>
+ <!--国家治理end-->
+ 
+<!--大国关系start-->
+ <!--二级菜单-->
+<li id='Relations'><a>Great Power Relations<span style="color:#F0F8FF;position:relative;left:-193px;font-size:2em;">+</span></a>
+      <ul class="myHide" id='hasradio02'>
+           <li id='Relations_china'><input   id='Relations_china_radio' type='checkbox'  name='nation_relation' class='re' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Friendly&nbsp;To&nbsp;China</a></li>
+           <li id='Relations_usa'><input id='Relations_usa_radio' type='checkbox' name='nation_relation' class='re' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Friendly&nbsp;To&nbsp;USA</a></li>
+		   <li id='Relations_russia'><input id='Relations_russia_radio' type='checkbox'  name='nation_relation' class='re' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Friendly&nbsp;To&nbsp;Russia</a></li>
+		   <li id='Relations_japan'><input id='Relations_japan_radio'  type='checkbox'  name='nation_relation' class='re' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Friendly&nbsp;To&nbsp;Japan</a></li>
+		   <li id='Relations_europe'><input id='Relations_europe_radio' type='checkbox'  name='nation_relation' class='re' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Friendly&nbsp;To&nbsp;Europe</a></li>
+		   <li id='Relations_india'><input id='Relations_india_radio' type='checkbox'  name='nation_relation' class='re' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Friendly&nbsp;To&nbsp;India</a></li>
+       </ul>
+ </li>
+ <!--大国关系end-->
+
+  <!--反恐态势start-->
+<!--二级菜单-->
+<li id='anti_Terrorism'><a>Anti-terrorism Situation<span style="color:#F0F8FF;position:relative;left:-215px;font-size:2em;">+</span></a>
+      <ul class="myHide" id='hascheckbox04'>
+			<li id='anti_Terrorism01'><input type='checkbox' id='anti_Terrorism01_checkbox' class='anti' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>B&R &nbsp;Countries</a></li>
+			<li id='anti_Terrorism02'><input type='checkbox' id='anti_Terrorism02_checkbox' class='anti' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Non&nbsp;B&R&nbsp;Countries</a></li>
+       </ul>
+ </li>
+   <!--反恐态势end-->
+    <!--中资项目start-->
+<!--二级菜单-->
+<li><a>Chinese-invested Projects<span style="color:#F0F8FF;position:relative;left:-223px;font-size:2em;">+</span></a>
+      <ul class="myHide" id='hascheckbox05' >
+           <li class='proj'><input type='checkbox' class='project' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Successful</a></li>
+		   <li class='proj'><input type='checkbox' class='project' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Failed</a></li>
+		   <li class='proj'><input type='checkbox' class='project' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Under Construction</a></li>
+		   <li class='proj'><input type='checkbox' class='project' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>In Preparation</a></li>
+       </ul>
+ </li>
+   <!--中资项目end-->
+ <!--亚投行start-->
+ <!--二级菜单-->
+<li id='AIIB_group'><a>Members Asian Investment Bank<span style="color:#F0F8FF;position:relative;left:-254px;font-size:2em;">+</span></a>
+      <ul class="myHide" id='hascheckbox06'>
+           <li id="AIIB"><input id='AIIB_checkbox'  type='checkbox' class='aiib' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>B&R Countries</a></li>
+		   <li  id="non_AIIB"><input  id='non_AIIB_checkbox' type='checkbox' class='aiib' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Non B&R Countries</a></li>
+		   
+       </ul>
+ </li>
+  <!--亚投行项目end-->
+<li id='videomonitor'><a>Video Surveillance<span style="color:#F0F8FF;position:relative;left:-172px;font-size:2em;">+</span></a>
+   <ul class="myHide" id='hascheckbox07'>
+      <li id="v1" class="control2"><input id="v1_checkbox" class="videot" type='checkbox' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Video 1</a></li>
+	  <li id="v2" class="control2"><input id="v2_checkbox" class="videot" type='checkbox' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Video 2</a></li>
+	  <li id="v3" class="control2"><input id="v3_checkbox" class="videot" type='checkbox' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Video 3</a></li>
+      <li id="v4" class="control2"><input id="v4_checkbox" class="videot" type='checkbox' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Video 4</a></li>
+      <li id="v5" class="control"><input id="v5_checkbox" class="video" type='checkbox' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Video 5</a></li>
+      <li id="v6" class="control"><input id="v6_checkbox" class="video" type='checkbox' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Video 6</a></li>
+    </ul>
+</li>
+<!--最外层的tag-->
+</ul>
+</li>
+    <li><span class="lebox"></span><span class='menu_first'>More&nbsp;Functions</span>
+        <ul class="myHide" id='funselection'>
+            <li id='funselection1'><input checked="checked" id='fun1_checkbox' type='checkbox' class='funselect' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Navigation</a></li>
+            <li id='funselection2'><input id='fun2_checkbox' type='checkbox' class='funselect' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Graticules</a></li>
+            <li id='funselection3'><input checked id='fun3_checkbox' type='checkbox' class='funselect' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Geographic Coordinates</a></li>
+            <li id='funselection4'><input checked id='fun4_checkbox' type='checkbox' class='funselect' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a> Scale</a></li>
+            <li id='funselection4'><input id='fun4_checkbox' checked type='checkbox' class='funselect' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Chinese Annotation</a></li>
+            <li id='funselection4'><input id='fun4_checkbox' type='checkbox' class='funselect' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>English Annotation</a></li>
+             <li id='funselection4'><input id='fun4_checkbox' type='checkbox' class='funselect' style="margin-top:5px;margin-left:5px;width:20px;float:left;" /><a>Land Cover</a></li>
+        </ul>
+    </li>
+	<li><span class="lebox"></span><span class='menu_first' >Feedback</span>
+          <ul class="myHide" id='contact'>
+			<li><a style="border-left:5px solid #87CEEB;font-size:0.9em" href="http://www.visualearth.org" target="_blank" id='info'> <!--设置target以确定新文档在何处窗口打开-->
+			<span style="color:black !important;">Developer:</span> Visual Earth Studio</a>
+                          <a style="border-left:5px solid #87CEEB;font-size:0.9em" href="mailto:lfzhu@geo.ecnu.edu.cn" id='info'>
+			<span style="color:black !important;">E-mail:</span> lfzhu@geo.ecnu.edu.cn</a>
+				<a  style="border-left:5px solid #87CEEB;font-size:0.9em" href="http://www.visualearth.org" target="_blank" id='info'>
+			<span style="color:black !important;">Website:</span> www.visualearth.org</a>
+			</li>
+
+          </ul>			
+	</li>
+
+
+
+
+	
+	</ul>
+</div>
+
+
+<video id="trailer" class="trailer" preload="load" loop crossorigin controls></video>
+<video class="trailer" preload="load" loop crossorigin controls></video>
+<video class="trailer" preload="load" loop crossorigin controls></video>
+<video class="trailer" preload="load" loop crossorigin controls></video>
+ 
+
+
+
+
+
+
+
+
+ 
+<script src="../../Build/Cesium/Cesium.js"></script> 
+<script type="text/javascript" src="../Sandcastle/Sandcastle-header.js"></script>
+<!-- <script type="text/javascript" src="../../ThirdParty/requirejs-2.1.20/require.js"></script> -->
+ <script src="js/jquery-1.4.4.min.js"></script> 
+ <script type="js/jquery-ui.js"></script>
+ <script type="text/javascript" src="js/webwidget_vertical_menu.js"></script>
+<script src="js/myWidget2.js"></script>
+<script type="text/javascript" src="js/d3.v3.min.js"></script>
+<script>
+var sharedObject = {
+			dispatch : d3.dispatch("nationMouseover"),//创建一个定制的事件分发器，这里的定制事件是"nationMouseover"，然后可以以属性的形式来访问事件相应属性，如dispatch.nationMouseover
+			yearData : [],
+			flyTo : null
+		};
+</script>
+<script type="text/javascript" src="js/d3example.js"></script>
+<script type="text/javascript" language="javascript" charset="utf-8" src="js/oboren.js" ></script>
+<script src="js/jquery.cxscroll.min.js"></script>
+<script>$("#pic_list_2").cxScroll({direction:"right",step:1,time:10,speed:2000 });</script>
+<!-- <script src="js/drawMeasure.min.js"></script> -->
+<script src="js/echarts.common.min.js" charset="utf-8"></script>
+<script src="js/turf.min.js" charset="utf-8"></script>
+
+<script src="js/drawing.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Cesium + d3 Data Visualization</title>
+	<script type="text/javascript" src="3rdParty/jquery-ui-1.10.3/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="3rdParty/jquery-ui-1.10.3/ui/jquery-ui.js"></script>
+    <script type="text/javascript" src="../Build/Cesium/Cesium.js"></script>
+    <script type="text/javascript" src="3rdParty/d3/d3.v3.min.js"></script>
+	<script type="text/javascript">
+		var sharedObject = {
+			dispatch : d3.dispatch("nationMouseover"),//创建一个定制的事件分发器，这里的定制事件是"nationMouseover"，然后可以以属性的形式来访问事件相应属性，如dispatch.nationMouseover
+			yearData : [],
+			flyTo : null
+		};
+    </script>
+    <style>
+      @import url(3rdParty/jquery-ui-1.10.3/themes/vader/jquery-ui.css);
+      @import url(d3chart.css);
+      @import url(../Build/Cesium/Widgets/widgets.css);
+      html, body, #cesiumContainer {
+          width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;
+      }
+
+       .axis path,
+       .axis line {
+           fill: none;
+           stroke: white;
+        }
+    </style>
+  </head>
+<body>
+	<div id="cesiumContainer"></div>
+	<div id="radio" style="position:absolute; top:0px; right:50%; height: 30px">
+		<input type="radio" id="health" name="healthwealth" checked="checked"><label for="health">健康</label>
+		<input type="radio" id="wealth" name="healthwealth"><label for="wealth">财富</label>
+	</div>
+	<div id="chart"></div>
+	<div id="info" title="国民健康与财富"></div>
+	<script type="text/javascript" src="d3example.js"></script>
+	<script type="text/javascript" src="globe.js"></script>
+</body>
+</html>

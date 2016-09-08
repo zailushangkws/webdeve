@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Folder>
+		<GroundOverlay>
+			<name>Endeavour</name>
+			<Icon>
+				<href>Endeavour.png</href>
+			</Icon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<LatLonBox>
+				<north>48.268395</north>
+				<south>46.840964</south>
+				<east>-128.805285</east>
+				<west>-129.478745</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+</kml>

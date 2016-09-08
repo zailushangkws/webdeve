@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Folder>
+		<GroundOverlay>
+			<name>Oregon_Margin</name>
+			<Icon>
+				<href>Oregon_Margin.png</href>
+			</Icon>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<LatLonBox>
+				<north>45.159786</north>
+				<south>43.799747</south>
+				<east>-124.774895</east>
+				<west>-125.200249</west>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+</kml>
