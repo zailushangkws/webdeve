@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Use correct character set. -->
+  <meta charset="utf-8">
+  <!-- Tell IE to use the latest, best version. -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <title>Hello World!</title>
+  <script src="../Build/Cesium/Cesium.js"></script>
+  <style>
+      @import url(../Build/Cesium/Widgets/widgets.css);
+      html, body, #cesiumContainer {
+          width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;
+      }
+  </style>
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+  <script>
+  /*  var viewer = new Cesium.Viewer('cesiumContainer');
+    var coll=new Cesium.PolylineCollection();
+ var ellipsoid = viewer.scene.globe.ellipsoid;
+var line=coll.add();
+ 
+ 
+line.positions=ellipsoid.cartographicArrayToCartesianArray([
+                    Cesium.Cartographic.fromDegrees(-75, 37),   //Cartographic:地理坐标，且经纬度是用弧度表示的//此方法是表示将度数表示的地理坐标转化为弧度表示的地理坐标
+                    Cesium.Cartographic.fromDegrees(-125, 37)
+                ]);
+ var outlineMaterial = Cesium.Material.fromType('PolylineOutline'); 
+                outlineMaterial.uniforms.outlineWidth = 3.0;
+                outlineMaterial.uniforms.outlineColor = new Cesium.Color(0.0, 0.0, 0.0, 1.0);
+                outlineMaterial.uniforms.color = Cesium.Color.BLUE; 
+                line.material = outlineMaterial;
+    
+viewer.scene.primitives.add(coll);
+viewer.zoomTo(coll);*/
+
+ 
+var viewer = new Cesium.Viewer('cesiumContainer');
+var coll= new Cesium.EntityCollection();
+var cylinder=coll.add({
+    name : 'Green cylinder with black outline',
+    position: Cesium.Cartesian3.fromDegrees(-100.0, 40.0, 200000.0),
+    cylinder : {
+        length : 400000.0,
+        topRadius : 200000.0,
+        bottomRadius : 200000.0,
+        material : Cesium.Color.GREEN.withAlpha(0.5),
+        outline : true,
+        outlineColor : Cesium.Color.DARK_GREEN
+    }
+    });
+viewer.entities.add(coll);
+viewer.zoomTo(coll);
+  </script>
+</body>
+</html>

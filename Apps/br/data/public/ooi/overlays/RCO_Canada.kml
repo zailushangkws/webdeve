@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Folder>
+		<name>RCO Canada</name>
+		<open>1</open>
+		<Placemark>
+			<name>Port Alberni</name>
+			<description><![CDATA[<html>
+<b>Name:</b> Port Alberni<br>
+<b>Type:</b> Shore Station<br>
+<b>Location:</b> 49.019204  -124.885832<br>
+<b>Start Date:</b> <br>
+<b>Cost:</b> $0<br>
+<b>Install Cost:</b> $1000,000<br>
+<b>Power:</b> 1.00kW (1000.00kW)<br>
+<b>Data:</b> 0.00Mb (1000.00Mb)<br>
+</html>
+]]></description>
+			<Style>
+				<IconStyle>
+					<scale>0.5</scale>
+					<Icon>
+						<href>http://localhost:8080/data/public/ooi/icons/dot.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-124.885832,49.019204,293</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>N10</name>
+			<description><![CDATA[<html>
+<b>Name:</b> N10<br>
+<b>Type:</b> Breakout<br>
+<b>Location:</b> 48.757897  -126.319093<br>
+<b>Start Date:</b> <br>
+<b>Cost:</b> $1,500,000<br>
+<b>Install Cost:</b> $160,000<br>
+<b>Power:</b> 0.00kW (100.00kW)<br>
+<b>Data:</b> 0.00Mb (100.00Mb)<br>
+</html>
+]]></description>
+			<Style>
+				<IconStyle>
+					<scale>0.5</scale>
+					<Icon>
+						<href>http://localhost:8080/data/public/ooi/icons/PrimaryNode.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-126.319093,48.757897,-377</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>N11</name>
+			<description><![CDATA[<html>
+<b>Name:</b> N11<br>
+<b>Type:</b> Breakout<br>
+<b>Location:</b> 48.476518  -128.497107<br>
+<b>Start Date:</b> <br>
+<b>Cost:</b> $1,500,000<br>
+<b>Install Cost:</b> $160,000<br>
+<b>Power:</b> 0.00kW (100.00kW)<br>
+<b>Data:</b> 0.00Mb (100.00Mb)<br>
+</html>
+]]></description>
+			<Style>
+				<IconStyle>
+					<scale>0.5</scale>
+					<Icon>
+						<href>http://localhost:8080/data/public/ooi/icons/PrimaryNode.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-128.497107,48.476518,-2400</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>N7</name>
+			<description><![CDATA[<html>
+<b>Name:</b> N7<br>
+<b>Type:</b> Primary Node<br>
+<b>Location:</b> 48.061906  -128.880448<br>
+<b>Start Date:</b> <br>
+<b>Cost:</b> $2,000,000<br>
+<b>Install Cost:</b> $160,000<br>
+<b>Power:</b> 5.00kW (100.00kW)<br>
+<b>Data:</b> 1.00Mb (100.00Mb)<br>
+</html>
+]]></description>
+			<Style>
+				<IconStyle>
+					<scale>0.5</scale>
+					<Icon>
+						<href>http://localhost:8080/data/public/ooi/icons/PrimaryNode.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-128.880448,48.061906,-2412</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>N8</name>
+			<description><![CDATA[<html>
+<b>Name:</b> N8<br>
+<b>Type:</b> Breakout<br>
+<b>Location:</b> 47.612645  -127.445820<br>
+<b>Start Date:</b> <br>
+<b>Cost:</b> $1,500,000<br>
+<b>Install Cost:</b> $160,000<br>
+<b>Power:</b> 0.00kW (100.00kW)<br>
+<b>Data:</b> 0.00Mb (100.00Mb)<br>
+</html>
+]]></description>
+			<Style>
+				<IconStyle>
+					<scale>0.5</scale>
+					<Icon>
+						<href>http://localhost:8080/data/public/ooi/icons/PrimaryNode.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-127.445820,47.612645,-2639</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>N9</name>
+			<description><![CDATA[<html>
+<b>Name:</b> N9<br>
+<b>Type:</b> Primary Node<br>
+<b>Location:</b> 48.435422  -125.992601<br>
+<b>Start Date:</b> <br>
+<b>Cost:</b> $2,000,000<br>
+<b>Install Cost:</b> $160,000<br>
+<b>Power:</b> 5.00kW (100.00kW)<br>
+<b>Data:</b> 1.00Mb (100.00Mb)<br>
+</html>
+]]></description>
+			<Style>
+				<IconStyle>
+					<scale>0.5</scale>
+					<Icon>
+						<href>http://localhost:8080/data/public/ooi/icons/PrimaryNode.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-125.992601,48.435422,-198</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MV 000</name>
+			<description><![CDATA[<html>
+<b>Name:</b> MV 000<br>
+<b>Type:</b> Secondary Node<br>
+<b>Location:</b> 47.996643  -129.036522<br>
+<b>Start Date:</b> <br>
+<b>Cost:</b> $1,500,000<br>
+<b>Install Cost:</b> $50,000<br>
+<b>Power:</b> 3.00kW (50.00kW)<br>
+<b>Data:</b> 1.00Mb (100.00Mb)<br>
+</html>
+]]></description>
+			<Style>
+				<IconStyle>
+					<scale>0.5</scale>
+					<Icon>
+						<href>http://localhost:8080/data/public/ooi/icons/SecondaryNode.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-129.036522,47.996643,-2230</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LV 001</name>
+			<description><![CDATA[<html>
+<b>Name:</b> LV 001<br>
+<b>Type:</b> Low Voltage Node<br>
+<b>Location:</b> 47.982316  -129.048365<br>
+<b>Start Date:</b> <br>
+<b>Cost:</b> $161,000<br>
+<b>Install Cost:</b> $40,000<br>
+<b>Power:</b> 1.00kW (20.00kW)<br>
+<b>Data:</b> 1.00Mb (100.00Mb)<br>
+</html>
+]]></description>
+			<Style>
+				<IconStyle>
+					<scale>0.5</scale>
+					<Icon>
+						<href>http://localhost:8080/data/public/ooi/icons/LowVoltageNode.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-129.048365,47.982316,-2208</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SS002</name>
+			<description><![CDATA[<html>
+<b>Name:</b> SS002<br>
+<b>Type:</b> Pressure Sensor<br>
+<b>Location:</b> 47.986181  -129.049850<br>
+<b>Start Date:</b> <br>
+<b>Cost:</b> $50,000<br>
+<b>Install Cost:</b> $10,000<br>
+<b>Power:</b> 2.00kW (0.00kW)<br>
+<b>Data:</b> 2.00Mb (0.00Mb)<br>
+</html>
+]]></description>
+			<Style>
+				<IconStyle>
+					<scale>0.5</scale>
+					<Icon>
+						<href>http://localhost:8080/data/public/ooi/icons/bottom_pressure_recorder.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-129.049850,47.986181,-2214</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SS003</name>
+			<description><![CDATA[<html>
+<b>Name:</b> SS003<br>
+<b>Type:</b> Pressure Sensor<br>
+<b>Location:</b> 47.978429  -129.057116<br>
+<b>Start Date:</b> <br>
+<b>Cost:</b> $50,000<br>
+<b>Install Cost:</b> $10,000<br>
+<b>Power:</b> 2.00kW (0.00kW)<br>
+<b>Data:</b> 2.00Mb (0.00Mb)<br>
+</html>
+]]></description>
+			<Style>
+				<IconStyle>
+					<scale>0.5</scale>
+					<Icon>
+						<href>http://localhost:8080/data/public/ooi/icons/bottom_pressure_recorder.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-129.057116,47.978429,-2207</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LV 004</name>
+			<description><![CDATA[<html>
+<b>Name:</b> LV 004<br>
+<b>Type:</b> Low Voltage Node<br>
+<b>Location:</b> 47.994929  -129.063591<br>
+<b>Start Date:</b> <br>
+<b>Cost:</b> $161,000<br>
+<b>Install Cost:</b> $40,000<br>
+<b>Power:</b> 1.00kW (20.00kW)<br>
+<b>Data:</b> 1.00Mb (100.00Mb)<br>
+</html>
+]]></description>
+			<Style>
+				<IconStyle>
+					<scale>0.5</scale>
+					<Icon>
+						<href>http://localhost:8080/data/public/ooi/icons/LowVoltageNode.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-129.063591,47.994929,-2236</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Doppler005</name>
+			<description><![CDATA[<html>
+<b>Name:</b> Doppler005<br>
+<b>Type:</b> Broadband Seismometer<br>
+<b>Location:</b> 47.997493  -129.062577<br>
+<b>Start Date:</b> <br>
+<b>Cost:</b> $50,000<br>
+<b>Install Cost:</b> $10,000<br>
+<b>Power:</b> 2.00kW (0.00kW)<br>
+<b>Data:</b> 2.00Mb (0.00Mb)<br>
+</html>
+]]></description>
+			<Style>
+				<IconStyle>
+					<scale>0.5</scale>
+					<Icon>
+						<href>http://localhost:8080/data/public/ooi/icons/broadband_seismometer.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-129.062577,47.997493,-2242</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<description><![CDATA[<html>
+<b>Connection:</b> <br>
+<b>Type:</b> Lightweight Armored<br>
+<b>Start Date:</b> <br>
+<b>Length:</b> 0 m<br>
+<b>Average Depth:</b> 0 m<br>
+<b>Number of control points:</b> 4<br>
+</html>
+]]></description>
+			<Style>
+				<LineStyle>
+					<width>2.0</width>
+					<color>ff00ff00</color>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-124.885832,49.019204,332 -125.140406,48.940064,-2 -125.277792,48.849336,-43 -126.319093,48.757897,-384 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<description><![CDATA[<html>
+<b>Connection:</b> <br>
+<b>Type:</b> Lightweight Armored<br>
+<b>Start Date:</b> <br>
+<b>Length:</b> 0 m<br>
+<b>Average Depth:</b> 0 m<br>
+<b>Number of control points:</b> 2<br>
+</html>
+]]></description>
+			<Style>
+				<LineStyle>
+					<width>2.0</width>
+					<color>ff00ff00</color>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-126.319093,48.757897,-384 -128.497107,48.476518,-2470 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<description><![CDATA[<html>
+<b>Connection:</b> <br>
+<b>Type:</b> Lightweight Armored<br>
+<b>Start Date:</b> <br>
+<b>Length:</b> 0 m<br>
+<b>Average Depth:</b> 0 m<br>
+<b>Number of control points:</b> 2<br>
+</html>
+]]></description>
+			<Style>
+				<LineStyle>
+					<width>2.0</width>
+					<color>ff00ff00</color>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-128.497107,48.476518,-2470 -128.880448,48.061906,-2541 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<description><![CDATA[<html>
+<b>Connection:</b> <br>
+<b>Type:</b> Lightweight Armored<br>
+<b>Start Date:</b> <br>
+<b>Length:</b> 0 m<br>
+<b>Average Depth:</b> 0 m<br>
+<b>Number of control points:</b> 2<br>
+</html>
+]]></description>
+			<Style>
+				<LineStyle>
+					<width>2.0</width>
+					<color>ff00ff00</color>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-128.880448,48.061906,-2541 -127.445820,47.612645,-2639 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<description><![CDATA[<html>
+<b>Connection:</b> <br>
+<b>Type:</b> Lightweight Armored<br>
+<b>Start Date:</b> <br>
+<b>Length:</b> 0 m<br>
+<b>Average Depth:</b> 0 m<br>
+<b>Number of control points:</b> 7<br>
+</html>
+]]></description>
+			<Style>
+				<LineStyle>
+					<width>2.0</width>
+					<color>ff00ff00</color>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-127.445820,47.612645,-2639 -126.915292,47.711989,-2459 -126.761510,47.832561,-2136 -126.607728,47.953133,-1746 -126.437778,48.126112,-2266 -126.201897,48.136161,-1800 -125.992601,48.435422,-213 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<description><![CDATA[<html>
+<b>Connection:</b> <br>
+<b>Type:</b> Lightweight Armored<br>
+<b>Start Date:</b> <br>
+<b>Length:</b> 0 m<br>
+<b>Average Depth:</b> 0 m<br>
+<b>Number of control points:</b> 5<br>
+</html>
+]]></description>
+			<Style>
+				<LineStyle>
+					<width>2.0</width>
+					<color>ff00ff00</color>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-125.992601,48.435422,-213 -125.600009,48.501623,-108 -125.333204,48.691196,-59 -125.277805,48.848722,-45 -124.885832,49.019204,332 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<description><![CDATA[<html>
+<b>Connection:</b> <br>
+<b>Type:</b> Lightweight Armored<br>
+<b>Start Date:</b> <br>
+<b>Length:</b> 0 m<br>
+<b>Average Depth:</b> 0 m<br>
+<b>Number of control points:</b> 2<br>
+</html>
+]]></description>
+			<Style>
+				<LineStyle>
+					<width>2.0</width>
+					<color>ff00ff00</color>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-128.880448,48.061906,-2541 -129.036522,47.996643,-2254 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<description><![CDATA[<html>
+<b>Connection:</b> <br>
+<b>Type:</b> Special Applications<br>
+<b>Start Date:</b> <br>
+<b>Length:</b> 0 m<br>
+<b>Average Depth:</b> 0 m<br>
+<b>Number of control points:</b> 2<br>
+</html>
+]]></description>
+			<Style>
+				<LineStyle>
+					<width>2.0</width>
+					<color>ff00ff00</color>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-129.036522,47.996643,-2254 -129.048365,47.982316,-2317 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<description><![CDATA[<html>
+<b>Connection:</b> <br>
+<b>Type:</b> Special Applications<br>
+<b>Start Date:</b> <br>
+<b>Length:</b> 0 m<br>
+<b>Average Depth:</b> 0 m<br>
+<b>Number of control points:</b> 2<br>
+</html>
+]]></description>
+			<Style>
+				<LineStyle>
+					<width>2.0</width>
+					<color>ff00ff00</color>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-129.048365,47.982316,-2317 -129.049850,47.986181,-2268 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<description><![CDATA[<html>
+<b>Connection:</b> <br>
+<b>Type:</b> Special Applications<br>
+<b>Start Date:</b> <br>
+<b>Length:</b> 0 m<br>
+<b>Average Depth:</b> 0 m<br>
+<b>Number of control points:</b> 2<br>
+</html>
+]]></description>
+			<Style>
+				<LineStyle>
+					<width>2.0</width>
+					<color>ff00ff00</color>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-129.048365,47.982316,-2317 -129.057116,47.978429,-2282 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<description><![CDATA[<html>
+<b>Connection:</b> <br>
+<b>Type:</b> Special Applications<br>
+<b>Start Date:</b> <br>
+<b>Length:</b> 0 m<br>
+<b>Average Depth:</b> 0 m<br>
+<b>Number of control points:</b> 2<br>
+</html>
+]]></description>
+			<Style>
+				<LineStyle>
+					<width>2.0</width>
+					<color>ff00ff00</color>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-129.036522,47.996643,-2254 -129.063591,47.994929,-2174 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<description><![CDATA[<html>
+<b>Connection:</b> <br>
+<b>Type:</b> Special Applications<br>
+<b>Start Date:</b> <br>
+<b>Length:</b> 0 m<br>
+<b>Average Depth:</b> 0 m<br>
+<b>Number of control points:</b> 2<br>
+</html>
+]]></description>
+			<Style>
+				<LineStyle>
+					<width>2.0</width>
+					<color>ff00ff00</color>
+				</LineStyle>
+			</Style>
+			<LineString>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-129.063591,47.994929,-2174 -129.062577,47.997493,-2183 </coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</kml>

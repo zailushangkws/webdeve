@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+  <Document>
+    <Style id="odp">
+      <IconStyle>
+        <Icon>
+          <href>http://localhost:8080/data/public/ooi/icons/borehole.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder><name>RCO_ODP_sites_042707</name>
+  <Placemark><styleUrl>#odp</styleUrl>
+    <description><![CDATA[
+      <b>LATITUDE:</b> <i>44.643</i><br />
+      <b>LONGITUDE:</b> <i>-125.325</i><br />
+      <b>SITELABEL:</b> <i>146-891</i><br />
+      <b>ELEVATION:</b> <i>-2675</i><br />
+      <b>DAY:</b> <i>25</i><br />
+      <b>MONTH:</b> <i>Oct</i><br />
+      <b>YEAR:</b> <i>1992</i><br />
+      <b>EVENTS:</b> <i>3</i><br />
+   ]]></description>      <Point><coordinates>-125.32500000001377,44.64299999970838</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#odp</styleUrl>
+    <description><![CDATA[
+      <b>LATITUDE:</b> <i>44.673</i><br />
+      <b>LONGITUDE:</b> <i>-125.118</i><br />
+      <b>SITELABEL:</b> <i>146-892</i><br />
+      <b>ELEVATION:</b> <i>-674</i><br />
+      <b>DAY:</b> <i>7</i><br />
+      <b>MONTH:</b> <i>Nov</i><br />
+      <b>YEAR:</b> <i>1992</i><br />
+      <b>EVENTS:</b> <i>5</i><br />
+   ]]></description>      <Point><coordinates>-125.11800000001547,44.672999999708288</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#odp</styleUrl>
+    <description><![CDATA[
+      <b>LATITUDE:</b> <i>47.917</i><br />
+      <b>LONGITUDE:</b> <i>-128.792</i><br />
+      <b>SITELABEL:</b> <i>168-1023</i><br />
+      <b>ELEVATION:</b> <i>0</i><br />
+      <b>DAY:</b> <i>0</i><br />
+      <b>YEAR:</b> <i>0</i><br />
+      <b>EVENTS:</b> <i>1</i><br />
+   ]]></description>      <Point><coordinates>-128.79199999998525,47.91699999968715</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#odp</styleUrl>
+    <description><![CDATA[
+      <b>LATITUDE:</b> <i>47.909</i><br />
+      <b>LONGITUDE:</b> <i>-128.750</i><br />
+      <b>SITELABEL:</b> <i>168-1024</i><br />
+      <b>ELEVATION:</b> <i>0</i><br />
+      <b>DAY:</b> <i>0</i><br />
+      <b>YEAR:</b> <i>0</i><br />
+      <b>EVENTS:</b> <i>3</i><br />
+   ]]></description>      <Point><coordinates>-128.74999999998562,47.908999999687111</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#odp</styleUrl>
+    <description><![CDATA[
+      <b>LATITUDE:</b> <i>47.887</i><br />
+      <b>LONGITUDE:</b> <i>-128.649</i><br />
+      <b>SITELABEL:</b> <i>168-1025</i><br />
+      <b>ELEVATION:</b> <i>0</i><br />
+      <b>DAY:</b> <i>0</i><br />
+      <b>YEAR:</b> <i>0</i><br />
+      <b>EVENTS:</b> <i>3</i><br />
+   ]]></description>      <Point><coordinates>-128.64899999998644,47.88699999968707</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#odp</styleUrl>
+    <description><![CDATA[
+      <b>LATITUDE:</b> <i>47.763</i><br />
+      <b>LONGITUDE:</b> <i>-127.759</i><br />
+      <b>SITELABEL:</b> <i>168-1026</i><br />
+      <b>ELEVATION:</b> <i>0</i><br />
+      <b>DAY:</b> <i>0</i><br />
+      <b>YEAR:</b> <i>0</i><br />
+      <b>EVENTS:</b> <i>3</i><br />
+   ]]></description>      <Point><coordinates>-127.75899999999376,47.762999999686897</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#odp</styleUrl>
+    <description><![CDATA[
+      <b>LATITUDE:</b> <i>47.757</i><br />
+      <b>LONGITUDE:</b> <i>-127.731</i><br />
+      <b>SITELABEL:</b> <i>168-1027</i><br />
+      <b>ELEVATION:</b> <i>0</i><br />
+      <b>DAY:</b> <i>0</i><br />
+      <b>YEAR:</b> <i>0</i><br />
+      <b>EVENTS:</b> <i>3</i><br />
+   ]]></description>      <Point><coordinates>-127.730999999994,47.756999999686876</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#odp</styleUrl>
+    <description><![CDATA[
+      <b>LATITUDE:</b> <i>47.858</i><br />
+      <b>LONGITUDE:</b> <i>-128.505</i><br />
+      <b>SITELABEL:</b> <i>168-1028</i><br />
+      <b>ELEVATION:</b> <i>0</i><br />
+      <b>DAY:</b> <i>0</i><br />
+      <b>YEAR:</b> <i>0</i><br />
+      <b>EVENTS:</b> <i>1</i><br />
+   ]]></description>      <Point><coordinates>-128.50499999998763,47.857999999687038</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#odp</styleUrl>
+    <description><![CDATA[
+      <b>LATITUDE:</b> <i>47.832</i><br />
+      <b>LONGITUDE:</b> <i>-128.377</i><br />
+      <b>SITELABEL:</b> <i>168-1029</i><br />
+      <b>ELEVATION:</b> <i>0</i><br />
+      <b>DAY:</b> <i>0</i><br />
+      <b>YEAR:</b> <i>0</i><br />
+      <b>EVENTS:</b> <i>1</i><br />
+   ]]></description>      <Point><coordinates>-128.3769999999887,47.831999999687007</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#odp</styleUrl>
+    <description><![CDATA[
+      <b>LATITUDE:</b> <i>47.897</i><br />
+      <b>LONGITUDE:</b> <i>-128.562</i><br />
+      <b>SITELABEL:</b> <i>168-1030</i><br />
+      <b>ELEVATION:</b> <i>0</i><br />
+      <b>DAY:</b> <i>0</i><br />
+      <b>YEAR:</b> <i>0</i><br />
+      <b>EVENTS:</b> <i>2</i><br />
+   ]]></description>      <Point><coordinates>-128.56199999998719,47.896999999687118</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#odp</styleUrl>
+    <description><![CDATA[
+      <b>LATITUDE:</b> <i>47.890</i><br />
+      <b>LONGITUDE:</b> <i>-128.566</i><br />
+      <b>SITELABEL:</b> <i>168-1031</i><br />
+      <b>ELEVATION:</b> <i>0</i><br />
+      <b>DAY:</b> <i>0</i><br />
+      <b>YEAR:</b> <i>0</i><br />
+      <b>EVENTS:</b> <i>1</i><br />
+   ]]></description>      <Point><coordinates>-128.56599999998713,47.889999999687085</coordinates></Point>
+  </Placemark>
+  <Placemark><styleUrl>#odp</styleUrl>
+    <description><![CDATA[
+      <b>LATITUDE:</b> <i>47.780</i><br />
+      <b>LONGITUDE:</b> <i>-128.122</i><br />
+      <b>SITELABEL:</b> <i>168-1032</i><br />
+      <b>ELEVATION:</b> <i>0</i><br />
+      <b>DAY:</b> <i>0</i><br />
+      <b>YEAR:</b> <i>0</i><br />
+      <b>EVENTS:</b> <i>1</i><br />
+   ]]></description>      <Point><coordinates>-128.12199999999081,47.7799999996869</coordinates></Point>
+  </Placemark>
+</Folder></Document></kml>
